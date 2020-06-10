@@ -152,7 +152,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    448 字
+                    516 字
                   </span>
                 
 
@@ -206,7 +206,8 @@
 <p>1.app可以是main方法，也可以是测试类在这个应用程序里，获取框架的api<br>2.任何一个框架都都会有对外的一组API，使用这样的API执行数据访问操作。<br>3.mybatis底层封装了JDBC。<br>4使用JDBC就需要驱动程序。</p>
 <h4 id="为什么要使用mybatis来封装JDBC呢？"><a href="#为什么要使用mybatis来封装JDBC呢？" class="headerlink" title="为什么要使用mybatis来封装JDBC呢？"></a>为什么要使用mybatis来封装JDBC呢？</h4><p>在传统的JDBC中执行的性能还是很好的，但是操作的步骤比较的繁杂，<br>比如使用Statement发送sql的时候，就要给sql中的？（占位符）赋值，<br>然后发送给数据库执行sql，那么拿到一个结果的时候就要从结果集例取数据，然后映射到内存中的对象，过程比较复杂，并且重复代码很多。</p>
 <p>说明：<br>Mybatis 之所以能够成为互联网项目中持久层应用的翘楚，个人认为其核心竞争<br>力应该是它灵活的 SQL 定制（动态sql），参数及结果集的映射。</p>
-<h3 id="Mybatis产品架构分析"><a href="#Mybatis产品架构分析" class="headerlink" title="Mybatis产品架构分析"></a>Mybatis产品架构分析</h3><p>互联网项目中的任何一个框架都可以看成是一个产品，每个产品都有它自己的产品架构，Mybatis 也不例外，它的产品架构主要可以从接口应用，SQL 处理以及基础服务支撑等几个角度进行分析。如下图所示：<br><img src="/img/mybatis-jdbc/chanpinjiagou.png" srcset="/img/loading.gif" alt="Alt mybatis产品架构"><br>接口应用层：面向应用程序员。<br>sql处理层:对sql进行解析，对参数、结果集进行映射处理等。<br>基础服务层：</p>
+<h3 id="Mybatis产品架构分析"><a href="#Mybatis产品架构分析" class="headerlink" title="Mybatis产品架构分析"></a>Mybatis产品架构分析</h3><p>互联网项目中的任何一个框架都可以看成是一个产品，每个产品都有它自己的产品架构，Mybatis 也不例外，它的产品架构主要可以从接口应用，SQL 处理以及基础服务支撑等几个角度进行分析。如下图所示：<br><img src="/img/mybatis-jdbc/chanpinjiagou.png" srcset="/img/loading.gif" alt="Alt mybatis产品架构"><br>接口应用层：面向应用程序员。<br>sql处理层:对sql进行解析，对参数、结果集进行映射处理等。</p>
+<p>说明：<br>说明：<br>所有想成为平台架构师的程序员，在应用一个互联网框架的过程中都应对框架的<br>设计理念，实现思路有一个很好的认知，并基于认知强化实践过程，拓展产品架<br>构思维。</p>
 
             </article>
             <hr>

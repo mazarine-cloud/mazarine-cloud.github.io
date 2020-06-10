@@ -8,7 +8,7 @@
     <link href="/2020/06/08/123%20/"/>
     <url>/2020/06/08/123%20/</url>
     
-    <content type="html"><![CDATA[<h1 id="我有思念千缕，不知来者愿听否。"><a href="#我有思念千缕，不知来者愿听否。" class="headerlink" title="我有思念千缕，不知来者愿听否。"></a>我有思念千缕，不知来者愿听否。</h1><br><p>我始终相信，</p><p>走过平湖烟雨，岁月山河，</p><p>哪些经理劫数，尝遍百味的人，</p><p>会更加生动而干净。</p><audio autoplay loop height="100" width="100" preload="auto"><source  src="/music/fanhuazhichu.mp3" type="audio/mpeg"  ></audio>]]></content>
+    <content type="html"><![CDATA[<h1 id="我有思念千缕，不知来者愿听否。"><a href="#我有思念千缕，不知来者愿听否。" class="headerlink" title="我有思念千缕，不知来者愿听否。"></a>我有思念千缕，不知来者愿听否。</h1><br><p>我始终相信，</p><p>走过平湖烟雨，岁月山河，</p><p>哪些经理劫数，尝遍百味的人，</p><p>会更加生动而干净。</p><p>(Have music so tardiness~)</p><audio autoplay loop height="100" width="100" preload="auto"><source  src="/music/fanhuazhichu.mp3" type="audio/mpeg"  ></audio>]]></content>
     
     
     
@@ -25,9 +25,9 @@
   
   
   <entry>
-    <title>Unix/linux</title>
-    <link href="/2020/05/20/Unix_Linux/"/>
-    <url>/2020/05/20/Unix_Linux/</url>
+    <title>head、tail、echo指令 Unix/linux</title>
+    <link href="/2020/05/20/head%E3%80%81tail%E3%80%81echo%E6%8C%87%E4%BB%A4%20Unixlinux(%E5%AE%8C)/"/>
+    <url>/2020/05/20/head%E3%80%81tail%E3%80%81echo%E6%8C%87%E4%BB%A4%20Unixlinux(%E5%AE%8C)/</url>
     
     <content type="html"><![CDATA[<p>echo 指令</p><p>echo 输出内容到控制台。<br>•基本语法<br>echo    [选项]    [输出内容]<br>•应用实例<br>案例: 使用 echo 指令输出环境变量,输出当前的环境路径。<br>案例: 使用 echo 指令输出 hello,world!</p><p>head 指令</p><p>head 用于显示文件的开头部分内容，默认情况下 head 指令显示文件的前 10 行内容<br>•基本语法<br>head  文件    (功能描述：查看文件头 10 行内容)<br>head -n 5 文件    (功能描述：查看文件头 5 行内容，5 可以是任意行数)<br>•应用实例<br>案例: 查看/etc/profile 的前面 5 行代码</p><p>tail 指令</p><p>tail 用于输出文件中尾部的内容，默认情况下 tail 指令显示文件的后 10 行内容。<br>•基本语法<br>1)tail    文件    （功能描述：查看文件后 10 行内容）<br>2)tail    -n 5 文件    （功能描述：查看文件后 5 行内容，5 可以是任意行数）<br>3)tail    -f    文件    （功能描述：实时追踪该文档的所有更新，工作经常使用）</p>]]></content>
     
@@ -64,8 +64,8 @@
   
   <entry>
     <title>PL/SQL</title>
-    <link href="/2020/05/14/PL_SQL_%E5%8F%98%E9%87%8F-%E6%B8%B8%E6%A0%87-%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B/"/>
-    <url>/2020/05/14/PL_SQL_%E5%8F%98%E9%87%8F-%E6%B8%B8%E6%A0%87-%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B/</url>
+    <link href="/2020/05/14/PL_SQL_%E5%8F%98%E9%87%8F-%E6%B8%B8%E6%A0%87-%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%EF%BC%88%E5%AE%8C%EF%BC%89/"/>
+    <url>/2020/05/14/PL_SQL_%E5%8F%98%E9%87%8F-%E6%B8%B8%E6%A0%87-%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%EF%BC%88%E5%AE%8C%EF%BC%89/</url>
     
     <content type="html"><![CDATA[<h2 id="PL-SQL学习"><a href="#PL-SQL学习" class="headerlink" title="PL/SQL学习"></a>PL/SQL学习</h2><p> PL/SQL是是由甲骨文公司在90年代初开发，以提高SQL的功能。PL/SQL是嵌入在Oracle数据库中的编程语言之一。PL/SQL是Oracle数据库对SQL语句的扩展。在普通SQL语句的使用上增加了编程语言的特点，所以PL/SQL就是把数据操作和查询语句组织在PL/SQL代码的过程性单元中，通过逻辑判断、循环等操作实现复杂的功能或者计算的程序语言。</p><a id="more"></a><h3 id="PL-SQL-介绍"><a href="#PL-SQL-介绍" class="headerlink" title="PL/SQL 介绍"></a>PL/SQL 介绍</h3><p>&emsp; &emsp; PL/SQL是是由甲骨文公司在90年代初开发，以提高SQL的功能。PL/SQL是嵌入在Oracle数据库中的编程语言之一。PL/SQL是Oracle数据库对SQL语句的扩展。在普通SQL语句的使用上增加了编程语言的特点，所以PL/SQL就是把数据操作和查询语句组织在PL/SQL代码的过程性单元中，通过逻辑判断、循环等操作实现复杂的功能或者计算的程序语言。</p><h3 id="PL-SQL-——Hello-World"><a href="#PL-SQL-——Hello-World" class="headerlink" title="PL/SQL ——Hello World"></a>PL/SQL ——Hello World</h3><pre><code>例：写一个简单的Hello Worlddeclare        //变量只能在这里声明    msg varchar(20);    //声明变量begin        //处理逻辑    msg := &apos;Hello world ! &apos;;    //赋值操作    dbms_output.put_line(msg);    //输出exception    -- 单行注释    /*     * 多行注释 ，这部分是异常处理模块，可有可无。     */end;</code></pre><h2 id="pl-sql编程语言"><a href="#pl-sql编程语言" class="headerlink" title="pl/sql编程语言"></a>pl/sql编程语言<br></h2><ul><li><p>p1/sq1编程语言是列sql语言的扩展,使待sql语言具有过程化编程的特性。<br></p></li><li><p>p1/sql编程语,比一般的过程化编程语言,更加灵活高效。<br></p></li><li><p>pl/sql编程语言主要用米编写存储过程和存储函数等。<br></p></li><li><p>时方法<br></p></li><li><p>赋值操作可以使用:也可以使用into查询语句默值<br></p><pre><code>declare    i number(2) := 10;    s varchar2(10) :=&apos;小明&apos;;    ena emp.ename%type;---引用型变量    emprow emp%rowtype;--记录型变量begin            dbms_output.put_line(i);        dbms_output.put_line (s);    select ename into ena from emp where empno =7788;        dbms_output.put_line (ena);    select * into emprow from emp where empno = 7788;        dbms_output.put_line (emprow.ename || &apos;的工作为:&apos; || emprow.job)end;    </code></pre></li></ul><h3 id="pl-sq1判断"><a href="#pl-sq1判断" class="headerlink" title="pl/sq1判断"></a>pl/sq1判断<br></h3><ul><li><p>输入小于18的数字,输出未成年<br></p></li><li><p>输入大于18小于40的数字,输出中年人<br></p></li><li><p>输入大于40的数字,输出老年<br></p><pre><code>declare    i number(3) :=&amp;ii;begin        if i&lt;18 then            dbms_output.pu_line(&apos;未成年&apos;);     elseif i&lt;40 then            dbms_output.pu_line(&apos;中成年&apos;);    else i&lt;40            dbms_output.pu_line(&apos;老成年&apos;);    end if;end;</code></pre><h3 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h3></li><li><p>–pl/sq1循环<br></p></li><li><p>–p1/sq1中的loop循环<br></p></li><li><p>–用三种方式输出1玛10是个数字<br></p></li><li><p>–while循环<br></p><pre><code>declare    i     number(2) :=1;begin    while i&lt;11 loop         dbms_output.putline (i);    i:=i+1;    end loop;end;</code></pre></li><li><p>–exit循环<br></p><p>   declare</p><pre><code>i     number(2) :=1;</code></pre><p>   begin</p><pre><code>loop exit while i&lt;11；      dbms_output.putline (i);i:=i+1;end loop;</code></pre><p>   end;</p></li><li><p>–for循环<br><br>   declare</p><p>   begin</p><pre><code>for i in 1..10 loop    dbms_output.put_line(in);end loop;</code></pre><p>   end;</p></li></ul><h3 id="游标"><a href="#游标" class="headerlink" title="游标"></a>游标</h3><ul><li>可以存放个对象，多行记录</li></ul><p>输出emp表中所有员工的姓名</p><pre><code>declare            cursor c1 is select*from emp ;            emprow emp%rowtypebegin    open c1    loop          fetch c1 into emprow;         exit when c1%notfound;                dnms_output.put_line(emprow.name)    end loop; close c1;end;</code></pre><p>给指定部门员工涨工资</p><pre><code>declare    cursor c2(eno emp.deptno%type) is select*from emp where deptno = eno;    en emp.empno%typebegin    open c2(10)        loop            fetch c2 into en;            exit when c2%notfound;            update emp set sal =sal +100 wnere empno=en;         end loop;    close c2;end;</code></pre><h3 id="存储过程"><a href="#存储过程" class="headerlink" title="存储过程"></a>存储过程</h3><ul><li><p>存储过程就是提前已经编译好的一段pl/sql，放置在数据库端</p></li><li><p>可以直接被调用。这一段pl/sql一般都是固定步骤的业务。</p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><pre><code> create proc [ edure ] procedure_name [ ; number ]      [ { @parameter data_type }     [ varying ] [ = default ] [ output ]         ] [ ,...n ]      [ with{ recompile | encryption | recompile , encryption } ]      [ for replication ]      as sql_statement [ ...n ]</code></pre></li></ul><p style="background:yellow">参数    procedure_name<p style="color:red">案例</p></p>--给指定员工涨工资100<pre><code>pl语句    create or replace procedure p1(eno emp.empno%type)    is      begin        update emp set sal=sal+100 where empno=no;    commit;    end; 测试pl:    declare    begin    p1(7788);    end;</code></pre><p style="background:yellow">create 如果创建已经存在，会报一个错误 -‘对象已存在’create or replace 则不会报错，如果创建已存在，它会先删除原来的，然后创建你要创建的。</p><h3 id="存储函数"><a href="#存储函数" class="headerlink" title="存储函数"></a>存储函数</h3><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>定义：函数唯一命名的存储程序，可带参数，并返回一计算值<br>函数和过程的结构类似，但必须有一个Return字句，用于返回函数值。</p><p>语法：</p><pre><code>create [or replace] function 函数名(参数列表)return 函数值类型asplsql子程序体;</code></pre><p style="color:red">案例</p></p>--通过存储函数实现计算指定员工的年薪<pre><code>pl语句    create or  replace fanction f_yearsal(eno emp.empno%type) return numberis    s number(10);begin    select sal*12+nvl(comm,0) from emp where empno=eno;     return s;end;测试f_yearsal:--存储函数调用的时候返回函数需要接收。declare    s number(10);begin    f_yearsal(7788);end;</code></pre><h3 id="out类型参数使用"><a href="#out类型参数使用" class="headerlink" title="out类型参数使用"></a>out类型参数使用</h3><pre><code>使用存储过程计算年薪create or replace procedure p_yearsal(eno emp.empno%type,yearsal out number)is    s number(10);    c emp.comm%type;begin    select sal*12,nvl(comm) into s,c from emp where empno=eno;    yearsal :=s+c;end; 测试p_yearsaldeclareyearsal number(10);beginp_yearsal(7788,yearsal);end;</code></pre><p style="background:yellow">in和out类型参数的区别是什么？    凡是涉及到into查询语句赋值或:=赋值操作的参数，必须使用out来修饰。</p><h5 id="存储过程核存储函数的区别"><a href="#存储过程核存储函数的区别" class="headerlink" title="存储过程核存储函数的区别"></a>存储过程核存储函数的区别</h5><p>相同点：1.创建语法结构相似，都可以携带多个传入参数和传出参数。</p><p>　　　　      2.都是一次编译，多次执行。</p><p>　　不同点：1.存储过程定义关键字用procedure，函数定义用function。</p><p>　　　　　　2.存储过程中不能用return返回值，但函数中可以，而且函数中必须有return子句。</p><p>　　　　　　3.执行方式略有不同，存储过程的执行方式有两种（1.使用execute2.使用begin和end），函数除了存储过程的两种方式外，还可以当做表达式使用，例如放在select中（select f1() form dual;）。</p><p>总结：如果只有一个返回值，用存储函数，否则，一般用存储过程。</p><p><a><a href="https://www.bilibili.com/video/BV1aE411K7u8?p=27" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1aE411K7u8?p=27</a></a></p>]]></content>
     
@@ -82,16 +82,16 @@
   
   
   <entry>
-    <title>TCP/UDP协议</title>
-    <link href="/2020/04/11/TCP-UDP/"/>
-    <url>/2020/04/11/TCP-UDP/</url>
+    <title>TCP/UDP协议(摘)</title>
+    <link href="/2020/04/11/TCP-UDP%EF%BC%88%E5%AE%8C%EF%BC%89/"/>
+    <url>/2020/04/11/TCP-UDP%EF%BC%88%E5%AE%8C%EF%BC%89/</url>
     
     <content type="html"><![CDATA[<h1 id="TCP-UDP"><a href="#TCP-UDP" class="headerlink" title="TCP-UDP"></a>TCP-UDP</h1><h2 id="TCP"><a href="#TCP" class="headerlink" title="TCP"></a>TCP</h2><p>是一种面向连接的、可靠的传输层协议；</p><pre><code>TCP协议建立在不可靠的网络层 IP 协议之上，IP协议并不能提供任何可靠性机制，TCP的可靠性完全由自己实现；TCP采用的最基本的可靠性技术是：确认与超时重传机制、流量控制机制；         </code></pre><p>1.超时重传是TCP协议保证数据可靠性的一个重要机制，其原理是在发送某一个数据以后就开启一个计时器，在一定时间内如果没有得到发送的数据报的ACK报文，那么就重新发送数据，直到发送成功为止。</p><p>2.流量控制就是让发送速率不要过快，让接收方来得及接收。利用滑动窗口机制就可以实施流量控制。</p><p><img src="/img/http-https/tcp1.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></p> <p>1.&emsp;源端口和目的端口字段—— socket（IP+端口号）。TCP的包是没有IP地址的，那是IP层上的事。但是有源端口和目标端口。<p>2.&emsp;序列号 SEQ ——当前报文段的序号。</p><p>3.&emsp;确认应答号 AN ——期望收到对方的下一个报文段的数据的第一个字节的序号；</p><p>4.&emsp;紧急  URG ——当  URG  =  1  时，表明紧急指针字段有效。它告诉系统此报文段中有紧急数据，应尽快传送(相当于高优先级的数据)；</p><p>5.&emsp;确认 ACK ——当 ACK = 1 时。表示确认应答号 AN 有效。</p><p>6.&emsp;推送  PSH  (PuSH) —— 接收  TCP  收到  PSH  =  1  的报文段，就尽快地交付接收应用进程，而不再等到整个缓存都填满了后再向上交付；</p><p>7.&emsp;复位  RST  (ReSeT) —— 当  RST  =  1  时，表明  TCP  连接中出现严重差错（如由于主机崩溃或其他原因），必须释放连接，然后再重新建立传输连接；</p><p>8.&emsp;同步 SYN —— 同步  SYN  =  1  表示这是一个连接请求报文。</p><p>9.&emsp;终止 FIN (Finish) —— 用来释放一个连接。FIN=  1  表明发送端的数据已发送完毕，并要求释放传输连接；</p><p>10.&emsp;窗口字段 —— 占 2 字节，用来让对方设置发送窗口的依据，单位为字节。窗口值是[ 0, 216-1 ]之间的整数；</p><p>11.&emsp;检验和 —— 占 2 字节。检验和字段检验的范围包括首部和数据这两部分。在计算检验和时,要在TCP报文段的前面加上12字节的伪部(协议字段为6，表示TCP)；</p><p>12.&emsp;紧急指针字段 —— 占 16 位，指出在本报文段中紧急数据共有多少个字节(紧急数据放在本报文段数据的最前面)；</p><p>13.&emsp;选项字段 —— 长度可变。① 最大报文段长度 MSS：MSS是指在TCP连接建立时，收发双发协商的通信时每一个报文段所能承载的数据字段的最大长度（并不是TCP报文段的最大长度，而是：MSS=TCP报文段长度-TCP首部长度），单位为字节（双方提供的MSS中的最小值，为本次连接的最大MSS值）；② 窗口扩大选项；③ 时间戳选项； ④ 选择确认选项；<br> </p></p><h3 id="TCP三次握手（非常重要）"><a href="#TCP三次握手（非常重要）" class="headerlink" title="TCP三次握手（非常重要）"></a>TCP三次握手（非常重要）</h3><ul><li>第一次握手：客户端向服务器发送请求报文段，其中同步位SYN=1，序号SEQ=x（表明传送数据时的第一个数据字节的序号是x），等待服务器确认；</li><li>第二次握手：服务器收到客户端发来的请求，如果同意建立连接，就发回一个确认报文段，该报文段中同步位SYN=1，确认号ACK=x+1，序号SEQ=y；</li><li>第三次握手：客户端收到服务器的确认报文段后，还需要向服务器给出确认，向其发送确认包ACK(ack=y+1)，进而完成三次握手。<br>通过这样的三次握手，客户端与服务端建立起可靠的双工的连接，开始传送数据。<br>为了保证服务端能收接受到客户端的信息并能做出正确的应答而进行前两次(第一次和第二次)握手，为了保证客户端能够接收到服务端的信息并能做出正确的应答而进行后两次(第二次和第三次)握手。<br><img src="/img/http-https/tcp2.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br><img src="/img/http-https/tcp3.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br><img src="/img/http-https/tcp4.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></li></ul><h2 id="UDP"><a href="#UDP" class="headerlink" title="UDP"></a>UDP</h2><p>用户数据报协议（用户报文协议）UDP是一种无连接的、不可靠的传输层协议；<br>   提供了有限的差错检验功能；<br>   目的是希望以最小的开销来达到网络环境中的进程通信目的；</p><p>随着网络技术飞速发展，网速已不再是传输的瓶颈，UDP协议以其简单、传输快的优势，在越来越多场景下取代了TCP，如网页浏览、流媒体、实时游戏、物联网。</p><h3 id="1-网速的提升给UDP稳定性提供可靠网络保障"><a href="#1-网速的提升给UDP稳定性提供可靠网络保障" class="headerlink" title="1.网速的提升给UDP稳定性提供可靠网络保障"></a>1.网速的提升给UDP稳定性提供可靠网络保障</h3><p>CDN服务商Akamai（NASDAQ: AKAM）报告从2008年到2015年7年时间，各个国家网络平均速率由1.5Mbps提升为5.1Mbps，网速提升近4倍。网络环境变好，网络传输的延迟、稳定性也随之改善，UDP的丢包率低于5%，如果再使用应用层重传，能够完全确保传输的可靠性。</p><h3 id="2-对比测试结果UDP性能优于TCP"><a href="#2-对比测试结果UDP性能优于TCP" class="headerlink" title="2.对比测试结果UDP性能优于TCP"></a>2.对比测试结果UDP性能优于TCP</h3><p>为了提升浏览速度，Google基于TCP提出了SPDY协议以及HTTP/2。Google在Chrome上实验基于UDP的QUIC协议，传输速率减少到100ms以内。<br><img src="/img/http-https/udp1.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br>Google采用QUIC后连接速率能有效提升75%。<br>Google搜索采用QUIC后页面加载性能提升3%。<br>YouTube采用QUIC后重新缓冲次数减少了30%。</p><h3 id="3-TCP设计过于冗余，速度难以进一步提升"><a href="#3-TCP设计过于冗余，速度难以进一步提升" class="headerlink" title="3.TCP设计过于冗余，速度难以进一步提升"></a>3.TCP设计过于冗余，速度难以进一步提升</h3><p>TCP为了实现网络通信的可靠性，使用了复杂的拥塞控制算法，建立了繁琐的握手过程以及重传策略。由于TCP内置在系统协议栈中，极难对其进行改进。</p><h3 id="4-UDP协议以其简单、传输快的优势，在越来越多场景下取代了TCP"><a href="#4-UDP协议以其简单、传输快的优势，在越来越多场景下取代了TCP" class="headerlink" title="4.UDP协议以其简单、传输快的优势，在越来越多场景下取代了TCP"></a>4.UDP协议以其简单、传输快的优势，在越来越多场景下取代了TCP</h3><h4 id="4-1-网页浏览"><a href="#4-1-网页浏览" class="headerlink" title="4.1 网页浏览"></a>4.1 网页浏览</h4><p>使用UDP协议有三个优点 ：<br>    能够对握手过程进行精简，减少网络通信往返次数；<br>    能够对TLS加解密过程进行优化；<br>    收发快速，无阻塞。</p><h4 id="4-2-流媒体"><a href="#4-2-流媒体" class="headerlink" title="4.2 流媒体"></a>4.2 流媒体</h4><p>采用TCP，一旦发生丢包，TCP会将后续包缓存起来，等前面的包重传并接收到后再继续发送，延迟会越来越大。基于UDP的协议如WebRTC是极佳的选择。<br>2010年google 通过收购 Global IP Solutions，获得了WebRTC（网页实时通信，Web Real-Time Communication）技术，用于提升网页视频速率。</p><h4 id="4-3-实时游戏"><a href="#4-3-实时游戏" class="headerlink" title="4.3 实时游戏"></a>4.3 实时游戏</h4><p>对实时要求较为严格的情况下，采用自定义的可靠UDP协议，比如Enet、RakNet（用户有sony online game、minecraft）等，自定义重传策略，能够把丢包产生的延迟降到最低，尽量减少网络问题对游戏性造成的影响。<br>采用UDP的经典游戏如FPS游戏Quake、CS，著名的游戏引擎Unity3D采用的也是RakNet</p><h2 id="TCP与UDP的不同"><a href="#TCP与UDP的不同" class="headerlink" title="TCP与UDP的不同"></a>TCP与UDP的不同</h2><ol><li>是否需要建立连接。<br> UDP在传送数据之前不需要先建立连接；TCP则提供面向连接的服务；</li><li>是否需要给出确认<br>对方的传输层在收到UDP报文后，不需要给出任何确认，而 TCP需要给出确认报文，要提供可靠的、面向连接的传输服务。</li><li>虽然UDP不提供可靠交付，但在某些情况下UDP是一种最有效的工作方式；【UDP取代TCP】</li></ol><p>和IP层的联系： IP层只负责把数据送到节点，而不能区分上面的不同应用，所以TCP和UDP协议在其基础上加入了端口的信息，每个端口标识的是一个节点上的一个应用。 除了增加端口信息，UPD协议基本就没有对IP层的数据进行任何的处理了。而TCP协议还加入了更加复杂的传输控制，比如滑动的数据发送窗口，以及接收确认和重发机制，以达到数据的可靠传送。不管应用层看到的是怎样一个稳定的TCP数据流，下面传送的都是一个个的IP数据包，需要由TCP协议来进行数据重组。</p><h2 id="TCP与UDP的适用场景。"><a href="#TCP与UDP的适用场景。" class="headerlink" title="TCP与UDP的适用场景。"></a>TCP与UDP的适用场景。</h2><ol><li>TCP用于在传输层有必要实现可靠传输的情况。</li><li>UDP主要用于那些对高速传输和实时性有较高要求的通信或广播通信。<br> 举一个通过 IP 电话进行通话的例子。如果使用 TCP，数据在传送途中如果丢失就会被重发，这样就会导致无法流畅地传输通话人的声音。而采用UDP，它不会进行重发处理，从而也就不会有声音大幅度延迟到达的问题，即使有部分数据丢失，也只是会影响某一小部分的通话。</li></ol>]]></content>
     
     
     <categories>
       
-      <category>自我反思</category>
+      <category>网络</category>
       
     </categories>
     
@@ -140,7 +140,7 @@
     <link href="/2020/03/18/%E5%85%B3%E4%BA%8EMybatis%E7%9A%84%E5%88%86%E6%9E%90/"/>
     <url>/2020/03/18/%E5%85%B3%E4%BA%8EMybatis%E7%9A%84%E5%88%86%E6%9E%90/</url>
     
-    <content type="html"><![CDATA[<a id="more"></a><h2 id="关于mybatis框架总结"><a href="#关于mybatis框架总结" class="headerlink" title="关于mybatis框架总结"></a>关于mybatis框架总结</h2><h3 id="Mbatis应用架构分析"><a href="#Mbatis应用架构分析" class="headerlink" title="Mbatis应用架构分析"></a>Mbatis应用架构分析</h3><p>Mybatis是一个非常优秀的持久层框架，它的底层时基于JDBC实现了与数据库之间的交互<br><br>并且在JDBC操作基础上做了封装和优化,它的应用架构如图所示。</p><!-- more --><p><img src="/img/mybatis-jdbc/yingyongjiagou.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></p><p>1.app可以是main方法，也可以是测试类在这个应用程序里，获取框架的api<br>2.任何一个框架都都会有对外的一组API，使用这样的API执行数据访问操作。<br>3.mybatis底层封装了JDBC。<br>4使用JDBC就需要驱动程序。</p><h4 id="为什么要使用mybatis来封装JDBC呢？"><a href="#为什么要使用mybatis来封装JDBC呢？" class="headerlink" title="为什么要使用mybatis来封装JDBC呢？"></a>为什么要使用mybatis来封装JDBC呢？</h4><p>在传统的JDBC中执行的性能还是很好的，但是操作的步骤比较的繁杂，<br>比如使用Statement发送sql的时候，就要给sql中的？（占位符）赋值，<br>然后发送给数据库执行sql，那么拿到一个结果的时候就要从结果集例取数据，然后映射到内存中的对象，过程比较复杂，并且重复代码很多。</p><p>说明：<br>Mybatis 之所以能够成为互联网项目中持久层应用的翘楚，个人认为其核心竞争<br>力应该是它灵活的 SQL 定制（动态sql），参数及结果集的映射。</p><h3 id="Mybatis产品架构分析"><a href="#Mybatis产品架构分析" class="headerlink" title="Mybatis产品架构分析"></a>Mybatis产品架构分析</h3><p>互联网项目中的任何一个框架都可以看成是一个产品，每个产品都有它自己的产品架构，Mybatis 也不例外，它的产品架构主要可以从接口应用，SQL 处理以及基础服务支撑等几个角度进行分析。如下图所示：<br><img src="/img/mybatis-jdbc/chanpinjiagou.png" srcset="/img/loading.gif" alt="Alt mybatis产品架构"><br>接口应用层：面向应用程序员。<br>sql处理层:对sql进行解析，对参数、结果集进行映射处理等。<br>基础服务层：</p>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="关于mybatis框架总结"><a href="#关于mybatis框架总结" class="headerlink" title="关于mybatis框架总结"></a>关于mybatis框架总结</h2><h3 id="Mbatis应用架构分析"><a href="#Mbatis应用架构分析" class="headerlink" title="Mbatis应用架构分析"></a>Mbatis应用架构分析</h3><p>Mybatis是一个非常优秀的持久层框架，它的底层时基于JDBC实现了与数据库之间的交互<br><br>并且在JDBC操作基础上做了封装和优化,它的应用架构如图所示。</p><!-- more --><p><img src="/img/mybatis-jdbc/yingyongjiagou.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></p><p>1.app可以是main方法，也可以是测试类在这个应用程序里，获取框架的api<br>2.任何一个框架都都会有对外的一组API，使用这样的API执行数据访问操作。<br>3.mybatis底层封装了JDBC。<br>4使用JDBC就需要驱动程序。</p><h4 id="为什么要使用mybatis来封装JDBC呢？"><a href="#为什么要使用mybatis来封装JDBC呢？" class="headerlink" title="为什么要使用mybatis来封装JDBC呢？"></a>为什么要使用mybatis来封装JDBC呢？</h4><p>在传统的JDBC中执行的性能还是很好的，但是操作的步骤比较的繁杂，<br>比如使用Statement发送sql的时候，就要给sql中的？（占位符）赋值，<br>然后发送给数据库执行sql，那么拿到一个结果的时候就要从结果集例取数据，然后映射到内存中的对象，过程比较复杂，并且重复代码很多。</p><p>说明：<br>Mybatis 之所以能够成为互联网项目中持久层应用的翘楚，个人认为其核心竞争<br>力应该是它灵活的 SQL 定制（动态sql），参数及结果集的映射。</p><h3 id="Mybatis产品架构分析"><a href="#Mybatis产品架构分析" class="headerlink" title="Mybatis产品架构分析"></a>Mybatis产品架构分析</h3><p>互联网项目中的任何一个框架都可以看成是一个产品，每个产品都有它自己的产品架构，Mybatis 也不例外，它的产品架构主要可以从接口应用，SQL 处理以及基础服务支撑等几个角度进行分析。如下图所示：<br><img src="/img/mybatis-jdbc/chanpinjiagou.png" srcset="/img/loading.gif" alt="Alt mybatis产品架构"><br>接口应用层：面向应用程序员。<br>sql处理层:对sql进行解析，对参数、结果集进行映射处理等。</p><p>说明：<br>说明：<br>所有想成为平台架构师的程序员，在应用一个互联网框架的过程中都应对框架的<br>设计理念，实现思路有一个很好的认知，并基于认知强化实践过程，拓展产品架<br>构思维。</p>]]></content>
     
     
     <categories>
@@ -191,8 +191,8 @@
   
   <entry>
     <title>HTTP协议</title>
-    <link href="/2020/01/12/HTTP%E5%8D%8F%E8%AE%AE/"/>
-    <url>/2020/01/12/HTTP%E5%8D%8F%E8%AE%AE/</url>
+    <link href="/2020/01/12/HTTP%E5%8D%8F%E8%AE%AE%EF%BC%88%E5%AE%8C%EF%BC%89/"/>
+    <url>/2020/01/12/HTTP%E5%8D%8F%E8%AE%AE%EF%BC%88%E5%AE%8C%EF%BC%89/</url>
     
     <content type="html"><![CDATA[<h2 id="HTTP协议简介-摘录-修改"><a href="#HTTP协议简介-摘录-修改" class="headerlink" title="HTTP协议简介(摘录.修改)"></a>HTTP协议简介(<a href="摘录">摘录</a>.修改)</h2><p>&emsp;&emsp; 超文本传输协议（英文：HyperText Transfer Protocol，缩写：HTTP）是一种用于分布式、协作式和超媒体信息系统的应用层协议。HTTP是万维网的数据通信的基础。<br>HTTP的发展是由蒂姆·伯纳斯-李于1989年在欧洲核子研究组织（CERN）所发起。HTTP的标准制定由万维网协会（World Wide Web Consortium，W3C）和互联网工程任务组（Internet Engineering Task Force，IETF）进行协调，最终发布了一系列的RFC，其中最著名的是1999年6月公布的 RFC 2616，定义了HTTP协议中现今广泛使用的一个版本——HTTP 1.1。<br>2014年12月，互联网工程任务组（IETF）的Hypertext Transfer Protocol Bis（httpbis）工作小组将HTTP/2标准提议递交至IESG进行讨论，于2015年2月17日被批准。 HTTP/2标准于2015年5月以RFC 7540正式发表，取代HTTP 1.1成为HTTP的实现标准。</p><a id="more"></a><h2 id="HTTP协议概述"><a href="#HTTP协议概述" class="headerlink" title="HTTP协议概述"></a>HTTP协议概述</h2><p>&emsp;&emsp; HTTP是一个客户端终端（用户）和服务器端（网站）请求和应答的标准（TCP）。通过使用网页浏览器、网络爬虫或者其它的工具，客户端发起一个HTTP请求到服务器上指定端口（默认端口为80）。我们称这个客户端为用户代理程序（user agent）。应答的服务器上存储着一些资源，比如HTML文件和图像。我们称这个应答服务器为源服务器（origin server）。在用户代理和源服务器中间可能存在多个“中间层”，比如代理服务器、网关或者隧道（tunnel）。<br>&emsp;&emsp; 尽管TCP/IP协议是互联网上最流行的应用，HTTP协议中，并没有规定必须使用它或它支持的层。事实上，HTTP可以在任何互联网协议上，或其他网络上实现。HTTP假定其下层协议提供可靠的传输。因此，任何能够提供这种保证的协议都可以被其使用。因此也就是其在TCP/IP协议族使用TCP作为其传输层。<br>&emsp;&emsp;通常，由HTTP客户端发起一个请求，创建一个到服务器指定端口（默认是80端口）的TCP连接。HTTP服务器则在那个端口监听客户端的请求。一旦收到请求，服务器会向客户端返回一个状态，比如”HTTP/1.1 200 OK”，以及返回的内容，如请求的文件、错误消息、或者其它信息。</p><h2 id="HTTP工作原理"><a href="#HTTP工作原理" class="headerlink" title="HTTP工作原理"></a>HTTP工作原理</h2><p>&emsp;&emsp;HTTP协议定义Web客户端如何从Web服务器请求Web页面，以及服务器如何把Web页面传送给客户端。HTTP协议采用了请求/响应模型。客户端向服务器发送一个请求报文，请求报文包含请求的方法、URL、协议版本、请求头部和请求数据。服务器以一个状态行作为响应，响应的内容包括协议的版本、成功或者错误代码、服务器信息、响应头部和响应数据。<br>以下是 HTTP 请求/响应的步骤：<br><b>1. 客户端连接到Web服务器</b><br>一个HTTP客户端，通常是浏览器，与Web服务器的HTTP端口（默认为80）建立一个TCP套接字连接。</p><p><b>2. 发送HTTP请求</b><br>通过TCP套接字，客户端向Web服务器发送一个文本的请求报文，一个请求报文由请求行、请求头部、空行和请求数据4部分组成。<br><b>3. 服务器接受请求并返回HTTP响应</b><br>Web服务器解析请求，定位请求资源。服务器将资源复本写到TCP套接字，由客户端读取。一个响应由状态行、响应头部、空行和响应数据4部分组成。</p><p><b>4. 释放连接TCP连接</b><br>若connection 模式为close，则服务器主动关闭TCP连接，客户端被动关闭连接，释放TCP连接;若connection 模式为keepalive，则该连接会保持一段时间，在该时间内可以继续接收请求;</p><p><b>5. 客户端浏览器解析HTML内容</b><br>客户端浏览器首先解析状态行，查看表明请求是否成功的状态代码。然后解析每一个响应头，响应头告知以下为若干字节的HTML文档和文档的字符集。客户端浏览器读取响应数据HTML，根据HTML的语法对其进行格式化，并在浏览器窗口中显示。<br><b>例如：在浏览器地址栏键入URL，按下回车之后会经历以下流程：</b><br>&emsp;&emsp;浏览器向 DNS 服务器请求解析该 URL 中的域名所对应的 IP 地址;</p><ol><li>解析出 IP 地址后，根据该 IP 地址和默认端口 80，和服务器建立TCP连接;</li><li>浏览器发出读取文件(URL 中域名后面部分对应的文件)的HTTP 请求，该请求报文作为 TCP 三次握手的第三个报文的数据发送给服务器;</li><li>服务器对浏览器请求作出响应，并把对应的 html 文本发送给浏览器;</li><li>释放 TCP连接;</li><li>浏览器将该 html 文本并显示内容; </li></ol><p><img src="/img/http-https/http2.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></p><h6>http协议是基于TCP/IP协议之上的应用层协议。<br><h3 id="基于-请求-响应-的模式"><a href="#基于-请求-响应-的模式" class="headerlink" title="基于 请求-响应 的模式"></a>基于 请求-响应 的模式</h6></h3><p>　　　HTTP协议规定,请求从客户端发出,最后服务器端响应该请求并 返回。换句话说,肯定是先从客户端开始建立通信的,服务器端在没有 接收到请求之前不会发送响应。</p><p><img src="/img/http-https/http3.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></p><h4 id="无状态保存"><a href="#无状态保存" class="headerlink" title="　无状态保存"></a>　无状态保存</h4><p>　　　　HTTP是一种不保存状态,即无状态(stateless)协议。HTTP协议 自身不对请求和响应之间的通信状态进行保存。也就是说在HTTP这个 级别,协议对于发送过的请求或响应都不做持久化处理。</p><p><img src="/img/http-https/http4.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br>&emsp;&emsp;使用HTTP协议,每当有新的请求发送时,就会有对应的新响应产 生。协议本身并不保留之前一切的请求或响应报文的信息。这是为了更快地处理大量事务,确保协议的可伸缩性,而特意把HTTP协议设计成 如此简单的。可是,随着Web的不断发展,因无状态而导致业务处理变得棘手 的情况增多了。比如,用户登录到一家购物网站,即使他跳转到该站的 其他页面后,也需要能继续保持登录状态。针对这个实例,网站为了能 够掌握是谁送出的请求,需要保存用户的状态。HTTP/1.1虽然是无状态协议,但为了实现期望的保持状态功能, 于是引入了Cookie技术。有了Cookie再用HTTP协议通信,就可以管 理状态了。有关Cookie的详细内容稍后讲解。</p><h4 id="无连接"><a href="#无连接" class="headerlink" title="无连接"></a>无连接</h4><p>&emsp;&emsp;无连接的含义是限制每次连接只处理一个请求。服务器处理完客户的请求，并收到客户的应答后，即断开连接。采用这种方式可以节省传输时间，并且可以提高并发性能，不能和每个用户建立长久的连接，请求一次相应一次，服务端和客户端就中断了。但是无连接有两种方式，早期的http协议是一个请求一个响应之后，直接就断开了，但是现在的http协议1.1版本不是直接就断开了，而是等几秒钟，这几秒钟是等什么呢，等着用户有后续的操作，如果用户在这几秒钟之内有新的请求，那么还是通过之前的连接通道来收发消息，如果过了这几秒钟用户没有发送新的请求，那么就会断开连接，这样可以提高效率，减少短时间内建立连接的次数，因为建立连接也是耗时的，默认的好像是3秒中现在，但是这个时间是可以通过咱们后端的代码来调整的，自己网站根据自己网站用户的行为来分析统计出一个最优的等待时间。</p><h2 id="HTTP请求方法"><a href="#HTTP请求方法" class="headerlink" title="HTTP请求方法"></a>HTTP请求方法</h2><p>HTTP/1.1协议中共定义了八种方法（也叫“动作”）来以不同方式操作指定的资源：</p><pre><code>GET</code></pre><p>向指定的资源发出“显示”请求。使用GET方法应该只用在读取数据，而不应当被用于产生“副作用”的操作中，例如在Web Application中。其中一个原因是GET可能会被网络蜘蛛等随意访问。</p><pre><code>HEAD</code></pre><p>与GET方法一样，都是向服务器发出指定资源的请求。只不过服务器将不传回资源的本文部分。它的好处在于，使用这个方法可以在不必传输全部内容的情况下，就可以获取其中“关于该资源的信息”（元信息或称元数据）。</p><pre><code>POST</code></pre><p>向指定资源提交数据，请求服务器进行处理（例如提交表单或者上传文件）。数据被包含在请求本文中。这个请求可能会创建新的资源或修改现有资源，或二者皆有。</p><pre><code>PUT</code></pre><p>向指定资源位置上传其最新内容。</p><pre><code>DELETE</code></pre><p>请求服务器删除Request-URI所标识的资源。</p><pre><code>TRACE</code></pre><p>回显服务器收到的请求，主要用于测试或诊断。</p><pre><code>OPTIONS</code></pre><p>这个方法可使服务器传回该资源所支持的所有HTTP请求方法。用’*’来代替资源名称，向Web服务器发送OPTIONS请求，可以测试服务器功能是否正常运作。</p><pre><code>CONNECT</code></pre><p>HTTP/1.1协议中预留给能够将连接改为管道方式的代理服务器。通常用于SSL加密服务器的链接（经由非加密的HTTP代理服务器）。<br>注意事项：<br> &emsp;&emsp;   1.方法名称是区分大小写的。当某个请求所针对的资源不支持对应的请求方法的时候，服务器应当返回状态码405（Method Not Allowed），当服务器不认识或者不支持对应的请求方法的时候，应当返回状态码501（Not Implemented）。<br> &emsp;&emsp;   2.HTTP服务器至少应该实现GET和HEAD方法，其他方法都是可选的。当然，所有的方法支持的实现都应当匹配下述的方法各自的语义定义。此外，除了上述方法，特定的HTTP服务器还能够扩展自定义的方法。例如PATCH（由 RFC 5789 指定的方法）用于将局部修改应用到资源。<br>    请求方式: get与post请求（通过form表单我们自己写写看）</p><ul><li>GET提交的数据会放在URL之后，也就是请求行里面，以?分割URL和传输数据，参数之间以&amp;相连，如EditBook?name=test1&amp;id=123456.（请求头里面那个content-type做的这种参数形式，后面讲） POST方法是把提交的数据放在HTTP包的请求体中.</li><li>GET提交的数据大小有限制（因为浏览器对URL的长度有限制），而POST方法提交的数据没有限制.</li><li>GET与POST请求在服务端获取请求数据方式不同，就是我们自己在服务端取请求数据的时候的方式不同了，这句废话昂。</li></ul><h2 id="HTTP状态码"><a href="#HTTP状态码" class="headerlink" title="HTTP状态码"></a>HTTP状态码</h2><p>所有HTTP响应的第一行都是状态行，依次是当前HTTP版本号，3位数字组成的状态代码，以及描述状态的短语，彼此由空格分隔。<br>状态代码的第一个数字代表当前响应的类型：<br>    1xx消息——请求已被服务器接收，继续处理<br>    2xx成功——请求已成功被服务器接收、理解、并接受<br>    3xx重定向——需要后续操作才能完成这一请求<br>    4xx请求错误——请求含有词法错误或者无法被执行<br>    5xx服务器错误——服务器在处理某个正确请求时发生错误</p><p>虽然 RFC 2616 中已经推荐了描述状态的短语，例如”200 OK”，”404 Not Found”，但是WEB开发者仍然能够自行决定采用何种短语，用以显示本地化的状态描述或者自定义信息。</p><p><img src="/img/http-https/http5.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></p><h2 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h2><p>超文本传输协议（HTTP）的统一资源定位符将从因特网获取信息的五个基本元素包括在一个简单的地址中：<br>传送协议。</p><ul><li>层级URL标记符号(为[//],固定不变)</li><li>访问资源需要的凭证信息（可省略）</li><li>服务器。（通常为域名，有时为IP地址）</li><li>端口号。（以数字方式表示，若为HTTP的默认值“:80”可省略）</li><li>路径。（以“/”字符区别路径中的每一个目录名称）</li><li>查询。（GET模式的窗体参数，以“?”字符为起点，每个参数以“&amp;”隔开，再以“=”分开参数名称与数据，通常以UTF8的URL编码，避开字符冲突的问题）</li><li>片段。以“#”字符为起点<br>以<a href="http://www.luffycity.com:80/news/index.html?id=250&amp;page=1" target="_blank" rel="noopener">http://www.luffycity.com:80/news/index.html?id=250&amp;page=1</a> 为例, 其中：<br>http，是协议；<br><a href="http://www.luffycity.com，是服务器；" target="_blank" rel="noopener">www.luffycity.com，是服务器；</a><br>80，是服务器上的默认网络端口号，默认不显示；<br>/news/index.html，是路径（URI：直接定位到对应的资源）；<br>?id=250&amp;page=1，是查询。<br>大多数网页浏览器不要求用户输入网页中“http://”的部分，因为绝大多数网页内容是超文本传输协议文件。同样，“80”是超文本传输协议文件的常用端口号，因此一般也不必写明。一般来说用户只要键入统一资源定位符的一部分（<a href="http://www.luffycity.com:80/news/index.html?id=250&amp;page=1）就可以了。" target="_blank" rel="noopener">www.luffycity.com:80/news/index.html?id=250&amp;page=1）就可以了。</a></li></ul><p>由于超文本传输协议允许服务器将浏览器重定向到另一个网页地址，因此许多服务器允许用户省略网页地址中的部分，比如 www。从技术上来说这样省略后的网页地址实际上是一个不同的网页地址，浏览器本身无法决定这个新地址是否通，服务器必须完成重定向的任务。</p><h2 id="HTTP请求格式-请求协议"><a href="#HTTP请求格式-请求协议" class="headerlink" title="HTTP请求格式(请求协议)"></a>HTTP请求格式(请求协议)</h2><p><img src="/img/http-https/http6.jpg" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br>　　　　　URL包含：/index/index2?a=1&amp;b=2；路径和参数都在这里。<br><img src="/img/http-https/http7.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br>请求头里面的内容举个例子：这个length表示请求体里面的数据长度，其他的请求头里面的这些键值对，陆续我们会讲的，大概知道一下就可以了，其中有一个user-agent，算是需要你记住的吧，就是告诉你的服务端，我是用什么给你发送的请求。<br><img src="/img/http-https/http8.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br>　　　　以京东为例，看一下user-agent<br><img src="/img/http-https/http9.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br><img src="/img/http-https/http10.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br>看一个爬虫的例子，爬京东的时候没问题，但是爬抽屉的时候必须带着user-agent，因为抽屉对user-agent做了判断，来判断你是不是一个正常的请求，算是反扒机制的一种。<br><img src="/img/http-https/http11.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br>打开我们保存的demo.html文件，然后通过浏览器打开看看就能看到页面效果。<br>　　　　　　写上面这些内容的意思是让你知道有这么个请求头的存在，有些是有意义的，请求头我们还可以自己定义，就在requests模块里面那个headers={}，这个字典里面加就行。</p><h2 id="HTTP响应格式（响应协议）"><a href="#HTTP响应格式（响应协议）" class="headerlink" title="HTTP响应格式（响应协议）"></a>HTTP响应格式（响应协议）</h2><p><img src="/img/http-https/http12.jpg" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"><br><img src="/img/http-https/http12.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></p>]]></content>
     
@@ -217,9 +217,63 @@
   
   
   <entry>
+    <title>Json-Ajax</title>
+    <link href="/2019/12/07/%E4%BB%80%E4%B9%88%E6%98%AFJson-%E4%BB%80%E4%B9%88%E6%98%AFAjax/"/>
+    <url>/2019/12/07/%E4%BB%80%E4%B9%88%E6%98%AFJson-%E4%BB%80%E4%B9%88%E6%98%AFAjax/</url>
+    
+    <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>web</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>ajax</tag>
+      
+      <tag>Json</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>SQL性能优化</title>
+    <link href="/2019/12/07/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93SQL%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
+    <url>/2019/12/07/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93SQL%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</url>
+    
+    <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数据库</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>SQL</tag>
+      
+      <tag>性能优化</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>为什么用迭代器(Iterator)</title>
-    <link href="/2019/12/07/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8%E8%BF%AD%E4%BB%A3%E5%99%A8/"/>
-    <url>/2019/12/07/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8%E8%BF%AD%E4%BB%A3%E5%99%A8/</url>
+    <link href="/2019/12/07/%E5%9F%BA%E7%A1%80-%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8%E8%BF%AD%E4%BB%A3%E5%99%A8/"/>
+    <url>/2019/12/07/%E5%9F%BA%E7%A1%80-%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8%E8%BF%AD%E4%BB%A3%E5%99%A8/</url>
     
     <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
     
@@ -245,8 +299,8 @@
   
   <entry>
     <title>SHELL基础</title>
-    <link href="/2019/11/09/Shell/"/>
-    <url>/2019/11/09/Shell/</url>
+    <link href="/2019/11/09/Shell%EF%BC%88%E5%AE%8C%EF%BC%89/"/>
+    <url>/2019/11/09/Shell%EF%BC%88%E5%AE%8C%EF%BC%89/</url>
     
     <content type="html"><![CDATA[<p>大数据程序员为什么要学习Shell呢？<br>需要看懂运维人员编写的Shell程序。<br>偶尔会编写一些简单Shell程序来管理集群、提高开发效率。</p><a id="more"></a><h3 id="第1章-Shell概述"><a href="#第1章-Shell概述" class="headerlink" title="第1章 Shell概述"></a>第1章 Shell概述</h3><p>大数据程序员为什么要学习Shell呢？<br></p><ul><li>1）需要看懂运维人员编写的Shell程序。<br></li><li>2）偶尔会编写一些简单Shell程序来管理集群、提高开发效率。<br></li></ul><h3 id="第2章-Shell解析器"><a href="#第2章-Shell解析器" class="headerlink" title="第2章 Shell解析器"></a>第2章 Shell解析器<br></h3><h4 id="（1）Linux提供的Shell解析器有："><a href="#（1）Linux提供的Shell解析器有：" class="headerlink" title="（1）Linux提供的Shell解析器有："></a>（1）Linux提供的Shell解析器有：</h4><pre><code>[atguigu@hadoop101 ~]$ cat /etc/shells /bin/sh/bin/bash/sbin/nologin/bin/dash/bin/tcsh/bin/csh</code></pre><h4 id="（2）bash和sh的关系"><a href="#（2）bash和sh的关系" class="headerlink" title="（2）bash和sh的关系"></a>（2）bash和sh的关系</h4><pre><code>[atguigu@hadoop101 bin]$ ll | grep bash-rwxr-xr-x. 1 root root 941880 5月  11 2016 bashlrwxrwxrwx. 1 root root  4 5月  27 2017 sh -&gt; bash</code></pre><h4 id="（3）Centos默认的解析器是bash"><a href="#（3）Centos默认的解析器是bash" class="headerlink" title="（3）Centos默认的解析器是bash"></a>（3）Centos默认的解析器是bash<br></h4><pre><code>[atguigu@hadoop102 bin]$ echo $SHELL/bin/bash</code></pre><h3 id="第3章-Shell脚本入门"><a href="#第3章-Shell脚本入门" class="headerlink" title="第3章 Shell脚本入门"></a>第3章 Shell脚本入门</h3><h4 id="1．脚本格式"><a href="#1．脚本格式" class="headerlink" title="1．脚本格式 "></a>1．脚本格式 <br></h4><pre><code>脚本以#!/bin/bash开头（指定解析器）</code></pre><h4 id="2．第一个Shell脚本：helloworld"><a href="#2．第一个Shell脚本：helloworld" class="headerlink" title="2．第一个Shell脚本：helloworld "></a>2．第一个Shell脚本：helloworld <br></h4><h5 id="（1）需求：创建一个Shell脚本，输出helloworld"><a href="#（1）需求：创建一个Shell脚本，输出helloworld" class="headerlink" title="（1）需求：创建一个Shell脚本，输出helloworld "></a>（1）需求：创建一个Shell脚本，输出helloworld <br></h5><h5 id="（2）案例实操："><a href="#（2）案例实操：" class="headerlink" title="（2）案例实操： "></a>（2）案例实操： <br></h5><pre><code>[atguigu@hadoop101 datas]$ touch helloworld.sh [atguigu@hadoop101 datas]$ vi helloworld.sh 在helloworld.sh中输入如下内容#!/bin/bashecho &quot;helloworld&quot;</code></pre><h5 id="（3）脚本的常用执行方式"><a href="#（3）脚本的常用执行方式" class="headerlink" title="（3）脚本的常用执行方式"></a>（3）脚本的常用执行方式<br></h5><ul><li>第一种：采用bash或sh+脚本的相对路径或绝对路径（不用赋予脚本+x权限）<br></li></ul><pre><code>sh+脚本的相对路径[atguigu@hadoop101 datas]$ sh helloworld.sh Helloworldsh+脚本的绝对路径[atguigu@hadoop101 datas]$ sh /home/atguigu/datas/helloworld.sh helloworldbash+脚本的相对路径[atguigu@hadoop101 datas]$ bash helloworld.sh Helloworldbash+脚本的绝对路径[atguigu@hadoop101 datas]$ bash /home/atguigu/datas/helloworld.sh Helloworld</code></pre><ul><li>第二种：采用输入脚本的绝对路径或相对路径执行脚本（必须具有可执行权限+x）<br><br>（a）首先要赋予helloworld.sh 脚本的+x权限<br></li></ul><pre><code>[atguigu@hadoop101 datas]$ chmod 777 helloworld.sh&lt;br&gt;</code></pre><p>（b）执行脚本<br></p><pre><code>相对路径    [atguigu@hadoop101 datas]$ ./helloworld.sh Helloworld绝对路径[atguigu@hadoop101 datas]$ /home/atguigu/datas/helloworld.sh Helloworld</code></pre><p>注意：第一种执行方法，本质是bash解析器帮你执行脚本，所以脚本本身不需要执行权限。<br><br>     第二种执行方法，本质是脚本需要自己执行，所以需要执行权限。<br></p><h4 id="3．第二个Shell脚本：多命令处理"><a href="#3．第二个Shell脚本：多命令处理" class="headerlink" title="3．第二个Shell脚本：多命令处理"></a>3．第二个Shell脚本：多命令处理<br></h4><h5 id="（1）需求："><a href="#（1）需求：" class="headerlink" title="（1）需求： "></a>（1）需求： <br></h5><pre><code>在/home/atguigu/目录下创建一个banzhang.txt,在banzhang.txt文件中增加“I love cls”。&lt;br&gt;</code></pre><h5 id="（2）案例实操：-1"><a href="#（2）案例实操：-1" class="headerlink" title="（2）案例实操："></a>（2）案例实操：</h5><pre><code>[atguigu@hadoop101 datas]$ touch batch.sh[atguigu@hadoop101 datas]$ vi batch.sh在batch.sh中输入如下内容#!/bin/bashcd /home/atguigutouch cls.txtecho &quot;I love cls&quot; &gt;&gt;cls.txt</code></pre><h3 id="第4章-Shell中的变量"><a href="#第4章-Shell中的变量" class="headerlink" title="第4章 Shell中的变量"></a>第4章 Shell中的变量<br></h3><h4 id="4-1-系统变量"><a href="#4-1-系统变量" class="headerlink" title="4.1 系统变量"></a>4.1 系统变量<br></h4><h5 id="1-常用系统变量"><a href="#1-常用系统变量" class="headerlink" title="1. 常用系统变量"></a>1. 常用系统变量<br></h5><pre><code>$HOME、$PWD、$SHELL、$USER等</code></pre><h5 id="2．案例实操"><a href="#2．案例实操" class="headerlink" title="2．案例实操"></a>2．案例实操<br></h5><h6 id="（1）查看系统变量的值"><a href="#（1）查看系统变量的值" class="headerlink" title="（1）查看系统变量的值"></a>（1）查看系统变量的值<br></h6><pre><code>[atguigu@hadoop101 datas]$ echo $HOME/home/atguigu</code></pre><h6 id="（2）显示当前Shell中所有变量：set"><a href="#（2）显示当前Shell中所有变量：set" class="headerlink" title="（2）显示当前Shell中所有变量：set"></a>（2）显示当前Shell中所有变量：set<br></h6><pre><code>[atguigu@hadoop101 datas]$ setBASH=/bin/bashBASH_ALIASES=()BASH_ARGC=()BASH_ARGV=()</code></pre><h4 id="4-2-自定义变量"><a href="#4-2-自定义变量" class="headerlink" title="4.2 自定义变量"></a>4.2 自定义变量<br></h4><h5 id="1．基本语法"><a href="#1．基本语法" class="headerlink" title="1．基本语法"></a>1．基本语法<br></h5><pre><code>（1）定义变量：变量=值 &lt;br&gt;（2）撤销变量：unset 变量&lt;br&gt;（3）声明静态变量：readonly变量，注意：不能unset&lt;br&gt;</code></pre><h5 id="2．变量定义规则"><a href="#2．变量定义规则" class="headerlink" title="2．变量定义规则"></a>2．变量定义规则<br></h5><pre><code>（1）变量名称可以由字母、数字和下划线组成，但是不能以数字开头，环境变量名建议大写。（2）等号两侧不能有空格（3）在bash中，变量默认类型都是字符串类型，无法直接进行数值运算。（4）变量的值如果有空格，需要使用双引号或单引号括起来。</code></pre><h5 id="3．案例实操"><a href="#3．案例实操" class="headerlink" title="3．案例实操"></a>3．案例实操<br></h5><h6 id="（1）定义变量A"><a href="#（1）定义变量A" class="headerlink" title="（1）定义变量A"></a>（1）定义变量A<br></h6><pre><code>[atguigu@hadoop101 datas]$ A=5[atguigu@hadoop101 datas]$ echo $A5</code></pre><h6 id="（2）给变量A重新赋值"><a href="#（2）给变量A重新赋值" class="headerlink" title="（2）给变量A重新赋值"></a>（2）给变量A重新赋值</h6><pre><code>[atguigu@hadoop101 datas]$ A=8[atguigu@hadoop101 datas]$ echo $A8</code></pre><h6 id="（3）撤销变量A"><a href="#（3）撤销变量A" class="headerlink" title="（3）撤销变量A"></a>（3）撤销变量A</h6><pre><code>[atguigu@hadoop101 datas]$ unset A[atguigu@hadoop101 datas]$ echo $A</code></pre><h6 id="（4）声明静态的变量B-2，不能unset"><a href="#（4）声明静态的变量B-2，不能unset" class="headerlink" title="（4）声明静态的变量B=2，不能unset"></a>（4）声明静态的变量B=2，不能unset</h6><pre><code>[atguigu@hadoop101 datas]$ readonly B=2[atguigu@hadoop101 datas]$ echo $B2[atguigu@hadoop101 datas]$ B=9-bash: B: readonly variable</code></pre><h6 id="（5）在bash中，变量默认类型都是字符串类型，无法直接进行数值运算"><a href="#（5）在bash中，变量默认类型都是字符串类型，无法直接进行数值运算" class="headerlink" title="（5）在bash中，变量默认类型都是字符串类型，无法直接进行数值运算"></a>（5）在bash中，变量默认类型都是字符串类型，无法直接进行数值运算</h6><pre><code>[atguigu@hadoop102 ~]$ C=1+2[atguigu@hadoop102 ~]$ echo $C1+2</code></pre><h6 id="（6）变量的值如果有空格，需要使用双引号或单引号括起来"><a href="#（6）变量的值如果有空格，需要使用双引号或单引号括起来" class="headerlink" title="（6）变量的值如果有空格，需要使用双引号或单引号括起来"></a>（6）变量的值如果有空格，需要使用双引号或单引号括起来</h6><pre><code>[atguigu@hadoop102 ~]$ D=I love banzhang-bash: world: command not found[atguigu@hadoop102 ~]$ D=&quot;I love banzhang&quot;[atguigu@hadoop102 ~]$ echo $AI love banzhang</code></pre><h6 id="（7）可把变量提升为全局环境变量，可供其他Shell程序使用"><a href="#（7）可把变量提升为全局环境变量，可供其他Shell程序使用" class="headerlink" title="（7）可把变量提升为全局环境变量，可供其他Shell程序使用"></a>（7）可把变量提升为全局环境变量，可供其他Shell程序使用</h6><h4 id="export-变量名"><a href="#export-变量名" class="headerlink" title="export 变量名"></a>export 变量名</h4><pre><code>[atguigu@hadoop101 datas]$ vim helloworld.sh 在helloworld.sh文件中增加echo $B#!/bin/bashecho &quot;helloworld&quot;echo $B[atguigu@hadoop101 datas]$ ./helloworld.sh Helloworld发现并没有打印输出变量B的值。[atguigu@hadoop101 datas]$ export B[atguigu@hadoop101 datas]$ ./helloworld.sh helloworld2</code></pre><h4 id="4-3-特殊变量：-n"><a href="#4-3-特殊变量：-n" class="headerlink" title="4.3 特殊变量：$n"></a>4.3 特殊变量：$n<br></h4><h5 id="1．基本语法-1"><a href="#1．基本语法-1" class="headerlink" title="1．基本语法"></a>1．基本语法<br></h5><pre><code>$n    （功能描述：n为数字，$0代表该脚本名称，$1-$9代表第一到第九个参数，十以上的参数，十以上的参数需要用大括号包含，如${10}）</code></pre><h5 id="2．案例实操-1"><a href="#2．案例实操-1" class="headerlink" title="2．案例实操"></a>2．案例实操<br></h5><h6 id="（1）输出该脚本文件名称、输入参数1和输入参数2-的值"><a href="#（1）输出该脚本文件名称、输入参数1和输入参数2-的值" class="headerlink" title="（1）输出该脚本文件名称、输入参数1和输入参数2 的值"></a>（1）输出该脚本文件名称、输入参数1和输入参数2 的值<br></h6><pre><code>[atguigu@hadoop101 datas]$ touch parameter.sh [atguigu@hadoop101 datas]$ vim parameter.sh#!/bin/bashecho &quot;$0  $1   $2&quot;[atguigu@hadoop101 datas]$ chmod 777 parameter.sh[atguigu@hadoop101 datas]$ ./parameter.sh cls  xz./parameter.sh  cls   xz</code></pre><h4 id="4-4-特殊变量："><a href="#4-4-特殊变量：" class="headerlink" title="4.4 特殊变量：$#"></a>4.4 特殊变量：$#<br></h4><h5 id="1．基本语法-2"><a href="#1．基本语法-2" class="headerlink" title="1．基本语法"></a>1．基本语法</h5><pre><code>$#    （功能描述：获取所有输入参数个数，常用于循环）。</code></pre><h5 id="2．案例实操-2"><a href="#2．案例实操-2" class="headerlink" title="2．案例实操"></a>2．案例实操<br></h5><h6 id="（1）获取输入参数的个数"><a href="#（1）获取输入参数的个数" class="headerlink" title="（1）获取输入参数的个数"></a>（1）获取输入参数的个数</h6><pre><code>[atguigu@hadoop101 datas]$ vim parameter.sh#!/bin/bashecho &quot;$0  $1   $2&quot;echo $#[atguigu@hadoop101 datas]$ chmod 777 parameter.sh[atguigu@hadoop101 datas]$ ./parameter.sh cls  xz    parameter.sh cls xz     2</code></pre><h4 id="4-5-特殊变量：-、"><a href="#4-5-特殊变量：-、" class="headerlink" title="4.5 特殊变量：$*、$@"></a>4.5 特殊变量：$*、$@<br></h4><h5 id="1．基本语法-3"><a href="#1．基本语法-3" class="headerlink" title="1．基本语法"></a>1．基本语法<br></h5><pre><code>$*    （功能描述：这个变量代表命令行中所有的参数，$*把所有的参数看成一个整体）&lt;br&gt;$@    （功能描述：这个变量也代表命令行中所有的参数，不过$@把每个参数区分对待）</code></pre><h5 id="2．案例实操-3"><a href="#2．案例实操-3" class="headerlink" title="2．案例实操"></a>2．案例实操</h5><h6 id="（1）打印输入的所有参数"><a href="#（1）打印输入的所有参数" class="headerlink" title="（1）打印输入的所有参数"></a>（1）打印输入的所有参数</h6><pre><code>[atguigu@hadoop101 datas]$ vim parameter.sh#!/bin/bash    echo &quot;$0  $1   $2&quot;    echo $#    echo $*    echo $@[atguigu@hadoop101 datas]$ bash parameter.sh 1 2 3    parameter.sh  1   2    3    1 2 3    1 2 3</code></pre><h4 id="4-6-特殊变量：-？"><a href="#4-6-特殊变量：-？" class="headerlink" title="4.6 特殊变量：$？"></a>4.6 特殊变量：$？<br></h4><h5 id="1．基本语法-4"><a href="#1．基本语法-4" class="headerlink" title="1．基本语法"></a>1．基本语法<br></h5><p>$？（功能描述：最后一次执行的命令的返回状态。如果这个变量的值为0，证明上一个命令正确执行；<br><br>如果这个变量的值为非0（具体是哪个数，由命令自己来决定），则证明上一个命令执行不正确了。）<br>#####2．案例实操<br></p><pre><code>（1）判断helloworld.sh脚本是否正确执行[atguigu@hadoop101 datas]$ ./helloworld.sh hello world[atguigu@hadoop101 datas]$ echo $?0</code></pre><h3 id="第5章-运算符"><a href="#第5章-运算符" class="headerlink" title="第5章 运算符    "></a>第5章 运算符    <br></h3><h4 id="1．基本语法-5"><a href="#1．基本语法-5" class="headerlink" title="1．基本语法"></a>1．基本语法<br></h4><h5 id="（1）“-运算式-”或“-运算式-”"><a href="#（1）“-运算式-”或“-运算式-”" class="headerlink" title="（1）“$((运算式))”或“$[运算式]”"></a>（1）“$((运算式))”或“$[运算式]”<br></h5><h5 id="（2）expr-加，减，乘，除，取余"><a href="#（2）expr-加，减，乘，除，取余" class="headerlink" title="（2）expr  + , - , *,  /,  %    加，减，乘，除，取余"></a>（2）expr  + , - , *,  /,  %    加，减，乘，除，取余<br></h5><pre><code>注意：expr运算符间要有空格</code></pre><h4 id="2．案例实操："><a href="#2．案例实操：" class="headerlink" title="2．案例实操："></a>2．案例实操：</h4><h5 id="（1）计算3-2的值"><a href="#（1）计算3-2的值" class="headerlink" title="（1）计算3+2的值"></a>（1）计算3+2的值</h5><pre><code>[atguigu@hadoop101 datas]$ expr 2 + 35</code></pre><h5 id="（2）计算3-2的值"><a href="#（2）计算3-2的值" class="headerlink" title="（2）计算3-2的值"></a>（2）计算3-2的值</h5><pre><code>[atguigu@hadoop101 datas]$ expr 3 - 2 1</code></pre><h5 id="（3）计算（2-3）X4的值"><a href="#（3）计算（2-3）X4的值" class="headerlink" title="（3）计算（2+3）X4的值"></a>（3）计算（2+3）X4的值</h5><pre><code>（a）expr一步完成计算    [atguigu@hadoop101 datas]$ expr `expr 2 + 3` \* 4    20（b）采用$[运算式]方式    [atguigu@hadoop101 datas]# S=$[(2+3)*4]    [atguigu@hadoop101 datas]# echo $S</code></pre><h3 id="第6章-条件判断"><a href="#第6章-条件判断" class="headerlink" title="第6章 条件判断"></a>第6章 条件判断</h3><h4 id="1．基本语法-6"><a href="#1．基本语法-6" class="headerlink" title="1．基本语法"></a>1．基本语法</h4><pre><code>[ condition ]（注意condition前后要有空格）注意：条件非空即为true，[ atguigu ]返回true，[] 返回false。</code></pre><h4 id="2-常用判断条件"><a href="#2-常用判断条件" class="headerlink" title="2. 常用判断条件"></a>2. 常用判断条件</h4><h5 id="（1）两个整数之间比较"><a href="#（1）两个整数之间比较" class="headerlink" title="（1）两个整数之间比较"></a>（1）两个整数之间比较</h5><pre><code>= 字符串比较-lt 小于（less than）            -le 小于等于（less equal）-eq 等于（equal）                -gt 大于（greater than）-ge 大于等于（greater equal）    -ne 不等于（Not equal）</code></pre><h5 id="（2）按照文件权限进行判断"><a href="#（2）按照文件权限进行判断" class="headerlink" title="（2）按照文件权限进行判断"></a>（2）按照文件权限进行判断</h5><pre><code>-r 有读的权限（read）            -w 有写的权限（write）-x 有执行的权限（execute）</code></pre><h5 id="（3）按照文件类型进行判断"><a href="#（3）按照文件类型进行判断" class="headerlink" title="（3）按照文件类型进行判断"></a>（3）按照文件类型进行判断</h5><pre><code>-f 文件存在并且是一个常规的文件（file）-e 文件存在（existence）        -d 文件存在并是一个目录（directory）</code></pre><h4 id="3．案例实操-1"><a href="#3．案例实操-1" class="headerlink" title="3．案例实操"></a>3．案例实操</h4><h5 id="（1）23是否大于等于22"><a href="#（1）23是否大于等于22" class="headerlink" title="（1）23是否大于等于22"></a>（1）23是否大于等于22</h5><pre><code>[atguigu@hadoop101 datas]$ [ 23 -ge 22 ][atguigu@hadoop101 datas]$ echo $?0</code></pre><h5 id="（2）helloworld-sh是否具有写权限"><a href="#（2）helloworld-sh是否具有写权限" class="headerlink" title="（2）helloworld.sh是否具有写权限"></a>（2）helloworld.sh是否具有写权限</h5><pre><code>[atguigu@hadoop101 datas]$ [ -w helloworld.sh ][atguigu@hadoop101 datas]$ echo $?0</code></pre><h5 id="（3）-home-atguigu-cls-txt目录中的文件是否存在"><a href="#（3）-home-atguigu-cls-txt目录中的文件是否存在" class="headerlink" title="（3）/home/atguigu/cls.txt目录中的文件是否存在"></a>（3）/home/atguigu/cls.txt目录中的文件是否存在</h5><pre><code>[atguigu@hadoop101 datas]$ [ -e /home/b.txt ][atguigu@hadoop101 datas]$ echo $?1</code></pre><h5 id="（4）多条件判断（-amp-amp-表示前一条命令执行成功时，才执行后一条命令，-表示上一条命令执行失败后，才执行下一条命令）"><a href="#（4）多条件判断（-amp-amp-表示前一条命令执行成功时，才执行后一条命令，-表示上一条命令执行失败后，才执行下一条命令）" class="headerlink" title="（4）多条件判断（&amp;&amp; 表示前一条命令执行成功时，才执行后一条命令，|| 表示上一条命令执行失败后，才执行下一条命令）"></a>（4）多条件判断（&amp;&amp; 表示前一条命令执行成功时，才执行后一条命令，|| 表示上一条命令执行失败后，才执行下一条命令）</h5><pre><code>[atguigu@hadoop101 ~]$ [ condition ] &amp;&amp; echo OK || echo notokOK[atguigu@hadoop101 datas]$ [ condition ] &amp;&amp; [ ] || echo notoknotok</code></pre><h3 id="第7章-流程控制（重点）"><a href="#第7章-流程控制（重点）" class="headerlink" title="第7章 流程控制（重点）"></a>第7章 流程控制（重点）</h3><h4 id="7-1-if-判断"><a href="#7-1-if-判断" class="headerlink" title="7.1 if 判断"></a>7.1 if 判断</h4><h5 id="1．基本语法-7"><a href="#1．基本语法-7" class="headerlink" title="1．基本语法"></a>1．基本语法</h5><pre><code>if [ 条件判断式 ];then   程序 fi 或者 if [ 条件判断式 ]   then     程序 fi</code></pre><p>注意事项：<br>（1）[ 条件判断式 ]，中括号和条件判断式之间必须有空格<br>（2）if后要有空格</p><h5 id="2．案例实操-4"><a href="#2．案例实操-4" class="headerlink" title="2．案例实操"></a>2．案例实操</h5><p>（1）输入一个数字，如果是1，则输出banzhang zhen shuai，如果是2，则输出cls zhen mei，如果是其它，什么也不输出。</p><pre><code>[atguigu@hadoop101 datas]$ touch if.sh[atguigu@hadoop101 datas]$ vim if.sh#!/bin/bashif [ $1 -eq &quot;1&quot; ]then        echo &quot;banzhang zhen shuai&quot;elif [ $1 -eq &quot;2&quot; ]then        echo &quot;cls zhen mei&quot;fi[atguigu@hadoop101 datas]$ chmod 777 if.sh [atguigu@hadoop101 datas]$ ./if.sh 1banzhang zhen shuai</code></pre><h4 id="7-2-case-语句"><a href="#7-2-case-语句" class="headerlink" title="7.2 case 语句"></a>7.2 case 语句</h4><h5 id="1．基本语法-8"><a href="#1．基本语法-8" class="headerlink" title="1．基本语法"></a>1．基本语法</h5><pre><code>case $变量名 in   &quot;值1&quot;）     如果变量的值等于值1，则执行程序1     ;;   &quot;值2&quot;）     如果变量的值等于值2，则执行程序2     ;;   …省略其他分支…   *）     如果变量的值都不是以上的值，则执行此程序     ;; esac</code></pre><p>注意事项：</p><p>1)    case行尾必须为单词“in”，每一个模式匹配必须以右括号“）”结束。<br>2)    双分号“;;”表示命令序列结束，相当于java中的break。<br>3)    最后的“*）”表示默认模式，相当于java中的default。</p><h5 id="2．案例实操-5"><a href="#2．案例实操-5" class="headerlink" title="2．案例实操"></a>2．案例实操</h5><p>（1）输入一个数字，如果是1，则输出banzhang，如果是2，则输出cls，如果是其它，输出renyao。</p><pre><code>[atguigu@hadoop101 datas]$ touch case.sh[atguigu@hadoop101 datas]$ vim case.sh!/bin/bashcase $1 in&quot;1&quot;)        echo &quot;banzhang&quot;;;&quot;2&quot;)        echo &quot;cls&quot;;;*)        echo &quot;renyao&quot;;;esac[atguigu@hadoop101 datas]$ chmod 777 case.sh[atguigu@hadoop101 datas]$ ./case.sh 11</code></pre><h4 id="7-3-for-循环"><a href="#7-3-for-循环" class="headerlink" title="7.3 for 循环"></a>7.3 for 循环</h4><h5 id="1．基本语法1"><a href="#1．基本语法1" class="headerlink" title="1．基本语法1"></a>1．基本语法1</h5><pre><code>for (( 初始值;循环控制条件;变量变化 )) do   程序 done</code></pre><h5 id="2．案例实操-6"><a href="#2．案例实操-6" class="headerlink" title="2．案例实操"></a>2．案例实操</h5><h6 id="（1）从1加到100"><a href="#（1）从1加到100" class="headerlink" title="（1）从1加到100"></a>（1）从1加到100</h6><pre><code>[atguigu@hadoop101 datas]$ touch for1.sh[atguigu@hadoop101 datas]$ vim for1.sh#!/bin/bashs=0for((i=0;i&lt;=100;i++))do        s=$[$s+$i]doneecho $s[atguigu@hadoop101 datas]$ chmod 777 for1.sh [atguigu@hadoop101 datas]$ ./for1.sh “5050”</code></pre><h5 id="3．基本语法2"><a href="#3．基本语法2" class="headerlink" title="3．基本语法2"></a>3．基本语法2</h5><pre><code>for 变量 in 值1 值2 值3…   do     程序   done</code></pre><h5 id="4．案例实操"><a href="#4．案例实操" class="headerlink" title="4．案例实操"></a>4．案例实操</h5><h6 id="（1）打印所有输入参数"><a href="#（1）打印所有输入参数" class="headerlink" title="（1）打印所有输入参数"></a>（1）打印所有输入参数</h6><pre><code>[atguigu@hadoop101 datas]$ touch for2.sh[atguigu@hadoop101 datas]$ vim for2.sh#!/bin/bash#打印数字for i in $*    do      echo &quot;ban zhang love $i &quot;    done[atguigu@hadoop101 datas]$ chmod 777 for2.sh [atguigu@hadoop101 datas]$ bash for2.sh cls xz bdban zhang love clsban zhang love xzban zhang love bd</code></pre><h6 id="（2）比较-和-区别"><a href="#（2）比较-和-区别" class="headerlink" title="（2）比较$*和$@区别"></a>（2）比较$*和$@区别</h6><p>（a）$*和$@都表示传递给函数或脚本的所有参数，不被双引号“”包含时，都以$1 $2 …$n的形式输出所有参数。</p><pre><code>[atguigu@hadoop101 datas]$ touch for.sh[atguigu@hadoop101 datas]$ vim for.sh#!/bin/bash for i in $*do      echo &quot;ban zhang love $i &quot;donefor j in $@do              echo &quot;ban zhang love $j&quot;done[atguigu@hadoop101 datas]$ bash for.sh cls xz bdban zhang love cls ban zhang love xz ban zhang love bd ban zhang love clsban zhang love xzban zhang love bd</code></pre><p>（b）当它们被双引号“”包含时，“$*”会将所有的参数作为一个整体，以“$1 $2 …$n”的形式输出所有参数；<br><br>“$@”会将各个参数分开，以“$1” “$2”…”$n”的形式输出所有参数。</p><pre><code>[atguigu@hadoop101 datas]$ vim for.sh#!/bin/bash for i in &quot;$*&quot; #$*中的所有参数看成是一个整体，所以这个for循环只会循环一次         do                 echo &quot;ban zhang love $i&quot;        done for j in &quot;$@&quot; #$@中的每个参数都看成是独立的，所以“$@”中有几个参数，就会循环几次         do                 echo &quot;ban zhang love $j&quot; done[atguigu@hadoop101 datas]$ chmod 777 for.sh[atguigu@hadoop101 datas]$ bash for.sh cls xz bdban zhang love cls xz bdban zhang love clsban zhang love xzban zhang love bd</code></pre><h4 id="7-4-while-循环"><a href="#7-4-while-循环" class="headerlink" title="7.4 while 循环"></a>7.4 while 循环</h4><h5 id="1．基本语法-9"><a href="#1．基本语法-9" class="headerlink" title="1．基本语法"></a>1．基本语法</h5><pre><code>while [ 条件判断式 ]   do     程序  done</code></pre><h5 id="2．案例实操-7"><a href="#2．案例实操-7" class="headerlink" title="2．案例实操"></a>2．案例实操</h5><pre><code>（1）从1加到100[atguigu@hadoop101 datas]$ touch while.sh[atguigu@hadoop101 datas]$ vim while.sh#!/bin/bashs=0i=1while [ $i -le 100 ]do        s=$[$s+$i]        i=$[$i+1]doneecho $s[atguigu@hadoop101 datas]$ chmod 777 while.sh [atguigu@hadoop101 datas]$ ./while.sh 5050</code></pre><h3 id="第8章-read读取控制台输入"><a href="#第8章-read读取控制台输入" class="headerlink" title="第8章 read读取控制台输入"></a>第8章 read读取控制台输入</h3><h4 id="1．基本语法-10"><a href="#1．基本语法-10" class="headerlink" title="1．基本语法"></a>1．基本语法</h4><pre><code>    read(选项)(参数)    选项：-p：指定读取值时的提示符；-t：指定读取值时等待的时间（秒）。参数    变量：指定读取值的变量名</code></pre><h4 id="2．案例实操-8"><a href="#2．案例实操-8" class="headerlink" title="2．案例实操"></a>2．案例实操</h4><h5 id="（1）提示7秒内，读取控制台输入的名称"><a href="#（1）提示7秒内，读取控制台输入的名称" class="headerlink" title="（1）提示7秒内，读取控制台输入的名称"></a>（1）提示7秒内，读取控制台输入的名称</h5><pre><code>[atguigu@hadoop101 datas]$ touch read.sh[atguigu@hadoop101 datas]$ vim read.sh#!/bin/bashread -t 7 -p &quot;Enter your name in 7 seconds &quot; NAMEecho $NAME[atguigu@hadoop101 datas]$ ./read.sh Enter your name in 7 seconds xiaozexiaoze</code></pre><h3 id="第9章-函数"><a href="#第9章-函数" class="headerlink" title="第9章 函数"></a>第9章 函数</h3><h4 id="9-1-系统函数"><a href="#9-1-系统函数" class="headerlink" title="9.1 系统函数"></a>9.1 系统函数</h4><h5 id="1．basename基本语法"><a href="#1．basename基本语法" class="headerlink" title="1．basename基本语法"></a>1．basename基本语法</h5><pre><code>basename [string / pathname] [suffix]      （功能描述：basename命令会删掉所有的前缀包括最后一个（‘/’）字符，然后将字符串显示出来。选项：suffix为后缀，如果suffix被指定了，basename会将pathname或string中的suffix去掉。</code></pre><h5 id="2．案例实操-9"><a href="#2．案例实操-9" class="headerlink" title="2．案例实操"></a>2．案例实操</h5><p>（1）截取该/home/atguigu/banzhang.txt路径的文件名称</p><pre><code>[atguigu@hadoop101 datas]$ basename /home/atguigu/banzhang.txt banzhang.txt[atguigu@hadoop101 datas]$ basename /home/atguigu/banzhang.txt .txtbanzhang</code></pre><h5 id="3-dirname基本语法"><a href="#3-dirname基本语法" class="headerlink" title="3.    dirname基本语法"></a>3.    dirname基本语法</h5><pre><code>dirname 文件绝对路径（功能描述：从给定的包含绝对路径的文件名中去除文件名（非目录的部分），然后返回剩下的路径（目录的部分））</code></pre><h5 id="4．案例实操-1"><a href="#4．案例实操-1" class="headerlink" title="4．案例实操"></a>4．案例实操</h5><h6 id="（1）获取banzhang-txt文件的路径"><a href="#（1）获取banzhang-txt文件的路径" class="headerlink" title="（1）获取banzhang.txt文件的路径"></a>（1）获取banzhang.txt文件的路径</h6><pre><code>[atguigu@hadoop101 ~]$ dirname /home/atguigu/banzhang.txt /home/atguigu</code></pre><h4 id="9-2-自定义函数"><a href="#9-2-自定义函数" class="headerlink" title="9.2 自定义函数"></a>9.2 自定义函数</h4><h5 id="1．基本语法-11"><a href="#1．基本语法-11" class="headerlink" title="1．基本语法"></a>1．基本语法</h5><pre><code>[ function ] funname[()]{    Action;    [return int;]}funname</code></pre><h5 id="2．经验技巧"><a href="#2．经验技巧" class="headerlink" title="2．经验技巧"></a>2．经验技巧</h5><pre><code>（1）必须在调用函数地方之前，先声明函数，shell脚本是逐行运行。不会像其它语言一样先编译。（2）函数返回值，只能通过$?系统变量获得，可以显示加：return返回，如果不加，将以最后一条命令运行结果，作为返回值。return后跟数值n(0-255)</code></pre><h5 id="3．案例实操-2"><a href="#3．案例实操-2" class="headerlink" title="3．案例实操"></a>3．案例实操</h5><p>（1）计算两个输入参数的和</p><pre><code>[atguigu@hadoop101 datas]$ touch fun.sh[atguigu@hadoop101 datas]$ vim fun.sh#!/bin/bashfunction sum(){    s=0    s=$[ $1 + $2 ]    echo &quot;$s&quot;}read -p &quot;Please input the number1: &quot; n1;read -p &quot;Please input the number2: &quot; n2;sum $n1 $n2;[atguigu@hadoop101 datas]$ chmod 777 fun.sh[atguigu@hadoop101 datas]$ ./fun.sh Please input the number1: 2Please input the number2: 57</code></pre><h3 id="第10章-Shell工具（重点）"><a href="#第10章-Shell工具（重点）" class="headerlink" title="第10章 Shell工具（重点）"></a>第10章 Shell工具（重点）</h3><h4 id="10-1-cut"><a href="#10-1-cut" class="headerlink" title="10.1 cut"></a>10.1 cut</h4><p>cut的工作就是“剪”，具体的说就是在文件中负责剪切数据用的。cut 命令从文件的每一行剪切字节、字符和字段并将这些字节、字符和字段输出。</p><h5 id="1-基本用法"><a href="#1-基本用法" class="headerlink" title="1.基本用法"></a>1.基本用法</h5><p>cut [选项参数]  filename<br>说明：默认分隔符是制表符</p><h5 id="2-选项参数说明"><a href="#2-选项参数说明" class="headerlink" title="2.选项参数说明"></a>2.选项参数说明</h5><p>表1-55<br>选项参数    功能<br>-f    列号，提取第几列<br>-d    分隔符，按照指定分隔符分割列</p><h5 id="3-案例实操"><a href="#3-案例实操" class="headerlink" title="3.案例实操"></a>3.案例实操</h5><h6 id="（0）数据准备"><a href="#（0）数据准备" class="headerlink" title="（0）数据准备"></a>（0）数据准备</h6><pre><code>[atguigu@hadoop101 datas]$ touch cut.txt[atguigu@hadoop101 datas]$ vim cut.txtdong shenguan zhenwo  wolai  laile  le</code></pre><h6 id="（1）切割cut-txt第一列"><a href="#（1）切割cut-txt第一列" class="headerlink" title="（1）切割cut.txt第一列"></a>（1）切割cut.txt第一列</h6><pre><code>[atguigu@hadoop101 datas]$ cut -d &quot; &quot; -f 1 cut.txt dongguanwolaile</code></pre><h6 id="（2）切割cut-txt第二、三列"><a href="#（2）切割cut-txt第二、三列" class="headerlink" title="（2）切割cut.txt第二、三列"></a>（2）切割cut.txt第二、三列</h6><pre><code>[atguigu@hadoop101 datas]$ cut -d &quot; &quot; -f 2,3 cut.txt shenzhen wo lai le</code></pre><h6 id="（3）在cut-txt文件中切割出guan"><a href="#（3）在cut-txt文件中切割出guan" class="headerlink" title="（3）在cut.txt文件中切割出guan"></a>（3）在cut.txt文件中切割出guan</h6><pre><code>[atguigu@hadoop101 datas]$ cat cut.txt | grep &quot;guan&quot; | cut -d &quot; &quot; -f 1guan</code></pre><h6 id="（4）选取系统PATH变量值，第2个“：”开始后的所有路径："><a href="#（4）选取系统PATH变量值，第2个“：”开始后的所有路径：" class="headerlink" title="（4）选取系统PATH变量值，第2个“：”开始后的所有路径："></a>（4）选取系统PATH变量值，第2个“：”开始后的所有路径：</h6><pre><code>[atguigu@hadoop101 datas]$ echo $PATH/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/atguigu/bin[atguigu@hadoop102 datas]$ echo $PATH | cut -d: -f 2-/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/atguigu/bin</code></pre><h6 id="（5）切割ifconfig-后打印的IP地址"><a href="#（5）切割ifconfig-后打印的IP地址" class="headerlink" title="（5）切割ifconfig 后打印的IP地址"></a>（5）切割ifconfig 后打印的IP地址</h6><pre><code>[atguigu@hadoop101 datas]$ ifconfig eth0 | grep &quot;inet addr&quot; | cut -d: -f 2 | cut -d&quot; &quot; -f1192.168.1.102</code></pre><h4 id="10-2-sed"><a href="#10-2-sed" class="headerlink" title="10.2 sed"></a>10.2 sed</h4><p>sed是一种流编辑器，它一次处理一行内容。处理时，把当前处理的行存储在临时缓冲区中，称为“模式空间”，接着用sed命令处理缓冲区中的内容，处理完成后，把缓冲区的内容送往屏幕。接着处理下一行，这样不断重复，直到文件末尾。文件内容并没有改变，除非你使用重定向存储输出。</p><h5 id="1-基本用法-1"><a href="#1-基本用法-1" class="headerlink" title="1.    基本用法"></a>1.    基本用法</h5><p>sed [选项参数]  ‘command’  filename</p><h5 id="2-选项参数说明-1"><a href="#2-选项参数说明-1" class="headerlink" title="2.    选项参数说明"></a>2.    选项参数说明</h5><pre><code>表1-56选项参数    功能-e    直接在指令列模式上进行sed的动作编辑。</code></pre><h5 id="3-命令功能描述"><a href="#3-命令功能描述" class="headerlink" title="3.    命令功能描述"></a>3.    命令功能描述</h5><pre><code>表1-57命令    功能描述a     新增，a的后面可以接字串，在下一行出现d    删除s    查找并替换 4.    案例实操</code></pre><h6 id="（0）数据准备-1"><a href="#（0）数据准备-1" class="headerlink" title="（0）数据准备"></a>（0）数据准备</h6><pre><code>[atguigu@hadoop102 datas]$ touch sed.txt[atguigu@hadoop102 datas]$ vim sed.txtdong shenguan zhenwo  wolai  laile  le</code></pre><h6 id="（1）将“mei-nv”这个单词插入到sed-txt第二行下，打印。"><a href="#（1）将“mei-nv”这个单词插入到sed-txt第二行下，打印。" class="headerlink" title="（1）将“mei nv”这个单词插入到sed.txt第二行下，打印。"></a>（1）将“mei nv”这个单词插入到sed.txt第二行下，打印。</h6><pre><code>[atguigu@hadoop102 datas]$ sed &apos;2a mei nv&apos; sed.txt dong shenguan zhenmei nvwo  wolai  laile  le[atguigu@hadoop102 datas]$ cat sed.txt dong shenguan zhenwo  wolai  laile  le注意：文件并没有改变</code></pre><h6 id="（2）删除sed-txt文件所有包含wo的行"><a href="#（2）删除sed-txt文件所有包含wo的行" class="headerlink" title="（2）删除sed.txt文件所有包含wo的行"></a>（2）删除sed.txt文件所有包含wo的行</h6><pre><code>[atguigu@hadoop102 datas]$ sed &apos;/wo/d&apos; sed.txtdong shenguan zhenlai  laile  le</code></pre><h6 id="（3）将sed-txt文件中wo替换为ni"><a href="#（3）将sed-txt文件中wo替换为ni" class="headerlink" title="（3）将sed.txt文件中wo替换为ni"></a>（3）将sed.txt文件中wo替换为ni</h6><pre><code>[atguigu@hadoop102 datas]$ sed &apos;s/wo/ni/g&apos; sed.txt dong shenguan zhenni  nilai  laile  le注意：‘g’表示global，全部替换</code></pre><h6 id="（4）将sed-txt文件中的第二行删除并将wo替换为ni"><a href="#（4）将sed-txt文件中的第二行删除并将wo替换为ni" class="headerlink" title="（4）将sed.txt文件中的第二行删除并将wo替换为ni"></a>（4）将sed.txt文件中的第二行删除并将wo替换为ni</h6><pre><code>[atguigu@hadoop102 datas]$ sed -e &apos;2d&apos; -e &apos;s/wo/ni/g&apos; sed.txt dong shenni  nilai  laile  le</code></pre><h4 id="10-3-awk"><a href="#10-3-awk" class="headerlink" title="10.3 awk"></a>10.3 awk</h4><p>一个强大的文本分析工具，把文件逐行的读入，以空格为默认分隔符将每行切片，切开的部分再进行分析处理。</p><h5 id="1-基本用法-2"><a href="#1-基本用法-2" class="headerlink" title="1.    基本用法"></a>1.    基本用法</h5><pre><code>awk [选项参数] ‘pattern1{action1}  pattern2{action2}...’ filenamepattern：表示AWK在数据中查找的内容，就是匹配模式action：在找到匹配内容时所执行的一系列命令</code></pre><h5 id="2-选项参数说明-2"><a href="#2-选项参数说明-2" class="headerlink" title="2.    选项参数说明"></a>2.    选项参数说明</h5><pre><code>表1-55选项参数    功能-F    指定输入文件折分隔符-v    赋值一个用户定义变量</code></pre><h5 id="3-案例实操-1"><a href="#3-案例实操-1" class="headerlink" title="3.    案例实操"></a>3.    案例实操</h5><h6 id="（0）数据准备-2"><a href="#（0）数据准备-2" class="headerlink" title="（0）数据准备"></a>（0）数据准备</h6><pre><code>[atguigu@hadoop102 datas]$ sudo cp /etc/passwd ./</code></pre><h6 id="（1）搜索passwd文件以root关键字开头的所有行，并输出该行的第7列。"><a href="#（1）搜索passwd文件以root关键字开头的所有行，并输出该行的第7列。" class="headerlink" title="（1）搜索passwd文件以root关键字开头的所有行，并输出该行的第7列。"></a>（1）搜索passwd文件以root关键字开头的所有行，并输出该行的第7列。</h6><pre><code>[atguigu@hadoop102 datas]$ awk -F: &apos;/^root/{print $7}&apos; passwd /bin/bash</code></pre><h6 id="（2）搜索passwd文件以root关键字开头的所有行，并输出该行的第1列和第7列，中间以“，”号分割。"><a href="#（2）搜索passwd文件以root关键字开头的所有行，并输出该行的第1列和第7列，中间以“，”号分割。" class="headerlink" title="（2）搜索passwd文件以root关键字开头的所有行，并输出该行的第1列和第7列，中间以“，”号分割。"></a>（2）搜索passwd文件以root关键字开头的所有行，并输出该行的第1列和第7列，中间以“，”号分割。</h6><pre><code>[atguigu@hadoop102 datas]$ awk -F: &apos;/^root/{print $1&quot;,&quot;$7}&apos; passwd root,/bin/bash注意：只有匹配了pattern的行才会执行action</code></pre><h6 id="（3）只显示-etc-passwd的第一列和第七列，以逗号分割，且在所有行前面添加列名user，shell在最后一行添加”dahaige，-bin-zuishuai”。"><a href="#（3）只显示-etc-passwd的第一列和第七列，以逗号分割，且在所有行前面添加列名user，shell在最后一行添加”dahaige，-bin-zuishuai”。" class="headerlink" title="（3）只显示/etc/passwd的第一列和第七列，以逗号分割，且在所有行前面添加列名user，shell在最后一行添加”dahaige，/bin/zuishuai”。"></a>（3）只显示/etc/passwd的第一列和第七列，以逗号分割，且在所有行前面添加列名user，shell在最后一行添加”dahaige，/bin/zuishuai”。</h6><pre><code>[atguigu@hadoop102 datas]$ awk -F : &apos;BEGIN{print &quot;user, shell&quot;} {print $1&quot;,&quot;$7} END{print &quot;dahaige,/bin/zuishuai&quot;}&apos; passwduser, shellroot,/bin/bashbin,/sbin/nologin。。。atguigu,/bin/bashdahaige,/bin/zuishuai注意：BEGIN 在所有数据读取行之前执行；END 在所有数据执行之后执行。</code></pre><h6 id="（4）将passwd文件中的用户id增加数值1并输出"><a href="#（4）将passwd文件中的用户id增加数值1并输出" class="headerlink" title="（4）将passwd文件中的用户id增加数值1并输出"></a>（4）将passwd文件中的用户id增加数值1并输出</h6><pre><code>[atguigu@hadoop102 datas]$ awk -v i=1 -F: &apos;{print $3+i}&apos; passwd1234</code></pre><h5 id="4-awk的内置变量"><a href="#4-awk的内置变量" class="headerlink" title="4.    awk的内置变量"></a>4.    awk的内置变量</h5><pre><code>表1-56变量    说明FILENAME    文件名NR    已读的记录数NF    浏览记录的域的个数（切割后，列的个数）</code></pre><h5 id="5-案例实操"><a href="#5-案例实操" class="headerlink" title="5.    案例实操"></a>5.    案例实操</h5><h6 id="（1）统计passwd文件名，每行的行号，每行的列数"><a href="#（1）统计passwd文件名，每行的行号，每行的列数" class="headerlink" title="（1）统计passwd文件名，每行的行号，每行的列数"></a>（1）统计passwd文件名，每行的行号，每行的列数</h6><pre><code>[atguigu@hadoop102 datas]$ awk -F: &apos;{print &quot;filename:&quot;  FILENAME &quot;, linenumber:&quot; NR  &quot;,columns:&quot; NF}&apos; passwd filename:passwd, linenumber:1,columns:7filename:passwd, linenumber:2,columns:7filename:passwd, linenumber:3,columns:7</code></pre><h6 id="（2）切割IP"><a href="#（2）切割IP" class="headerlink" title="（2）切割IP"></a>（2）切割IP</h6><pre><code>[atguigu@hadoop102 datas]$ ifconfig eth0 | grep &quot;inet addr&quot; | awk -F: &apos;{print $2}&apos; | awk -F &quot; &quot; &apos;{print $1}&apos; 192.168.1.102</code></pre><h6 id="（3）查询sed-txt中空行所在的行号"><a href="#（3）查询sed-txt中空行所在的行号" class="headerlink" title="（3）查询sed.txt中空行所在的行号"></a>（3）查询sed.txt中空行所在的行号</h6><pre><code>[atguigu@hadoop102 datas]$ awk &apos;/^$/{print NR}&apos; sed.txt 5</code></pre><h4 id="10-4-sort"><a href="#10-4-sort" class="headerlink" title="10.4 sort"></a>10.4 sort</h4><p>sort命令是在Linux里非常有用，它将文件进行排序，并将排序结果标准输出。</p><h5 id="1-基本语法"><a href="#1-基本语法" class="headerlink" title="1.    基本语法"></a>1.    基本语法</h5><pre><code>sort(选项)(参数)表1-57选项    说明-n    依照数值的大小排序-r    以相反的顺序来排序-t    设置排序时所用的分隔字符-k    指定需要排序的列参数：指定待排序的文件列表</code></pre><h5 id="2-案例实操"><a href="#2-案例实操" class="headerlink" title="2. 案例实操"></a>2. 案例实操</h5><h6 id="（0）数据准备-3"><a href="#（0）数据准备-3" class="headerlink" title="（0）数据准备"></a>（0）数据准备</h6><pre><code>[atguigu@hadoop102 datas]$ touch sort.sh[atguigu@hadoop102 datas]$ vim sort.sh bb:40:5.4bd:20:4.2xz:50:2.3cls:10:3.5ss:30:1.6</code></pre><h6 id="（1）按照“：”分割后的第三列倒序排序。"><a href="#（1）按照“：”分割后的第三列倒序排序。" class="headerlink" title="（1）按照“：”分割后的第三列倒序排序。"></a>（1）按照“：”分割后的第三列倒序排序。</h6><pre><code>[atguigu@hadoop102 datas]$ sort -t : -nrk 3  sort.sh bb:40:5.4bd:20:4.2cls:10:3.5xz:50:2.3ss:30:1.6</code></pre><h3 id="第11章-企业真实面试题（重点）"><a href="#第11章-企业真实面试题（重点）" class="headerlink" title="第11章 企业真实面试题（重点）"></a>第11章 企业真实面试题（重点）</h3><h4 id="11-1-京东"><a href="#11-1-京东" class="headerlink" title="11.1 京东"></a>11.1 京东</h4><h5 id="问题1：使用Linux命令查询file1中空行所在的行号"><a href="#问题1：使用Linux命令查询file1中空行所在的行号" class="headerlink" title="问题1：使用Linux命令查询file1中空行所在的行号"></a>问题1：使用Linux命令查询file1中空行所在的行号</h5><p>答案：</p><pre><code>[atguigu@hadoop102 datas]$ awk &apos;/^$/{print NR}&apos; sed.txt 5</code></pre><p>问题2：有文件chengji.txt内容如下:</p><pre><code>张三 40李四 50王五 60</code></pre><p>使用Linux命令计算第二列的和并输出</p><pre><code>[atguigu@hadoop102 datas]$ cat chengji.txt | awk -F &quot; &quot; &apos;{sum+=$2} END{print sum}&apos;150</code></pre><h4 id="11-2-搜狐-amp-和讯网"><a href="#11-2-搜狐-amp-和讯网" class="headerlink" title="11.2 搜狐&amp;和讯网"></a>11.2 搜狐&amp;和讯网</h4><p>问题1：Shell脚本里如何检查一个文件是否存在？如果不存在该如何处理？</p><pre><code>#!/bin/bashif [ -f file.txt ]; then   echo &quot;文件存在!&quot;else   echo &quot;文件不存在!&quot;fi</code></pre><h4 id="11-3-新浪"><a href="#11-3-新浪" class="headerlink" title="11.3 新浪"></a>11.3 新浪</h4><p>问题1：用shell写一个脚本，对文本中无序的一列数字排序</p><pre><code>[root@CentOS6-2 ~]# cat test.txt98765432101[root@CentOS6-2 ~]# sort -n test.txt|awk &apos;{a+=$0;print $0}END{print &quot;SUM=&quot;a}&apos;12345678910SUM=55</code></pre><h4 id="11-3-金和网络"><a href="#11-3-金和网络" class="headerlink" title="11.3 金和网络"></a>11.3 金和网络</h4><p>问题1：请用shell脚本写出查找当前文件夹（/home）下所有的文本文件内容中包含有字符”shen”的文件名称</p><pre><code>[atguigu@hadoop102 datas]$ grep -r &quot;shen&quot; /home | cut -d &quot;:&quot; -f 1/home/atguigu/datas/sed.txt/home/atguigu/datas/cut.txt</code></pre><blockquote><p>声明：笔记采用自传智播客网络，共同学习共同进步。</p></blockquote>]]></content>
     
@@ -272,8 +326,8 @@
   
   <entry>
     <title>字符串倒叙排列</title>
-    <link href="/2019/11/06/%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8/"/>
-    <url>/2019/11/06/%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8/</url>
+    <link href="/2019/11/06/%E5%9F%BA%E7%A1%80-%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8/"/>
+    <url>/2019/11/06/%E5%9F%BA%E7%A1%80-%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8/</url>
     
     <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
     
@@ -329,7 +383,7 @@
     <link href="/2019/09/04/List%E5%92%8Cset/"/>
     <url>/2019/09/04/List%E5%92%8Cset/</url>
     
-    <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
+    <content type="html"><![CDATA[]]></content>
     
     
     <categories>
@@ -352,36 +406,9 @@
   
   
   <entry>
-    <title>关于synchronized的面试题</title>
-    <link href="/2019/08/17/%E5%85%B3%E4%BA%8Esynchronized%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <url>/2019/08/17/%E5%85%B3%E4%BA%8Esynchronized%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
-    
-    <content type="html"><![CDATA[<p>暂未上传<br><a href="https://blog.csdn.net/wangcheeng/article/details/104753168" target="_blank" rel="noopener">https://blog.csdn.net/wangcheeng/article/details/104753168</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>多线程</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>synchronized</tag>
-      
-      <tag>多线程</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>关于Lock锁的面试题</title>
-    <link href="/2019/08/17/%E5%85%B3%E4%BA%8ELock%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <url>/2019/08/17/%E5%85%B3%E4%BA%8ELock%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98%20-%20%E5%89%AF%E6%9C%AC/</url>
+    <link href="/2019/08/17/%E5%85%B3%E4%BA%8E%E9%94%81Lock%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <url>/2019/08/17/%E5%85%B3%E4%BA%8E%E9%94%81Lock%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
     
     <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
     
@@ -406,9 +433,36 @@
   
   
   <entry>
+    <title>关于synchronized的面试题</title>
+    <link href="/2019/08/17/%E5%85%B3%E4%BA%8E%E9%94%81synchronized%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <url>/2019/08/17/%E5%85%B3%E4%BA%8E%E9%94%81synchronized%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<p>暂未上传<br><a href="https://blog.csdn.net/wangcheeng/article/details/104753168" target="_blank" rel="noopener">https://blog.csdn.net/wangcheeng/article/details/104753168</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>多线程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>synchronized</tag>
+      
+      <tag>多线程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>数据库-索引</title>
-    <link href="/2019/08/02/%E5%85%B3%E4%BA%8E%E7%B4%A2%E5%BC%95/"/>
-    <url>/2019/08/02/%E5%85%B3%E4%BA%8E%E7%B4%A2%E5%BC%95/</url>
+    <link href="/2019/08/02/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B4%A2%E5%BC%95/"/>
+    <url>/2019/08/02/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B4%A2%E5%BC%95/</url>
     
     <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
     
@@ -433,9 +487,9 @@
   
   
   <entry>
-    <title>字符串倒叙排列</title>
-    <link href="/2019/07/03/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%80%92%E5%8F%99%E6%8E%92%E5%88%97/"/>
-    <url>/2019/07/03/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%80%92%E5%8F%99%E6%8E%92%E5%88%97/</url>
+    <title>数据库-索引</title>
+    <link href="/2019/08/02/%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AAspring%E6%A1%86%E6%9E%B6/"/>
+    <url>/2019/08/02/%E6%89%8B%E5%86%99%E4%B8%80%E4%B8%AAspring%E6%A1%86%E6%9E%B6/</url>
     
     <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
     
@@ -449,9 +503,9 @@
     
     <tags>
       
-      <tag>JDBC</tag>
-      
       <tag>SQL</tag>
+      
+      <tag>索引</tag>
       
     </tags>
     
@@ -514,6 +568,87 @@
   
   
   <entry>
+    <title>关于Servlet</title>
+    <link href="/2019/07/03/%E5%85%B3%E4%BA%8EServlet/"/>
+    <url>/2019/07/03/%E5%85%B3%E4%BA%8EServlet/</url>
+    
+    <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数据库</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>JDBC</tag>
+      
+      <tag>SQL</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>基础-字符串倒叙排列</title>
+    <link href="/2019/07/03/%E5%9F%BA%E7%A1%80-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%80%92%E5%8F%99%E6%8E%92%E5%88%97/"/>
+    <url>/2019/07/03/%E5%9F%BA%E7%A1%80-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%80%92%E5%8F%99%E6%8E%92%E5%88%97/</url>
+    
+    <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数据库</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>JDBC</tag>
+      
+      <tag>SQL</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>关于多线程</title>
+    <link href="/2019/07/03/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <url>/2019/07/03/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>多线程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>多线程</tag>
+      
+      <tag>进程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>HashMap底层原理和遍历</title>
     <link href="/2019/06/01/HashMap%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86%E5%92%8C%E9%81%8D%E5%8E%86/"/>
     <url>/2019/06/01/HashMap%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86%E5%92%8C%E9%81%8D%E5%8E%86/</url>
@@ -545,12 +680,12 @@
     <link href="/2019/05/14/%E5%85%B3%E4%BA%8E%E6%8E%A5%E5%8F%A3%E5%92%8C%E6%8A%BD%E8%B1%A1%E7%B1%BB/"/>
     <url>/2019/05/14/%E5%85%B3%E4%BA%8E%E6%8E%A5%E5%8F%A3%E5%92%8C%E6%8A%BD%E8%B1%A1%E7%B1%BB/</url>
     
-    <content type="html"><![CDATA[<p>略</p><a id="more"></a><h2 id="区分Java的接口和抽象类"><a href="#区分Java的接口和抽象类" class="headerlink" title="区分Java的接口和抽象类"></a>区分Java的接口和抽象类</h2><p>从语法上来讲</p>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><h2 id="抽象类："><a href="#抽象类：" class="headerlink" title="抽象类："></a>抽象类：</h2><p>&emsp;&emsp;抽象类是特殊的类，只是不能被实例化；除此以外，具有类的其他特性；重要的是抽象类可以包括抽象方法，这是普通类所不能的。抽象方法只能声明于抽象类中，且不包含任何实现，派生类必须覆盖它们。另外，抽象类可以派生自一个抽象类，可以覆盖基类的抽象方法也可以不覆盖，如果不覆盖，则其派生类必须覆盖它们。</p><!-- more --><h2 id="接口："><a href="#接口：" class="headerlink" title="接口："></a>接口：</h2><p>接口是引用类型的，类似于类,和抽象类的相似之处有三点：</p><p>1、不能实例化；</p><p>2、包含未实现的方法声明；</p><p>3、派生类必须实现未实现的方法，抽象类是抽象方法，接口则是所有成员（不仅是方法包括其他成员）；</p><h4 id="另外，接口有如下特性："><a href="#另外，接口有如下特性：" class="headerlink" title="另外，接口有如下特性："></a>另外，接口有如下特性：</h4><p>接口除了可以包含方法之外，还可以包含属性、索引器、事件，而且这些成员都被定义为公有的。除此之外，不能包含任何其他的成员，例如：常量、域、构造函数、析构函数、静态成员。一个类可以直接继承多个接口，但只能直接继承一个类（包括抽象类）。</p><h2 id="抽象类和接口的区别："><a href="#抽象类和接口的区别：" class="headerlink" title="抽象类和接口的区别："></a>抽象类和接口的区别：</h2><p>1.类是对对象的抽象，可以把抽象类理解为把类当作对象，抽象成的类叫做抽象类.而接口只是一个行为的规范或规定，抽象类更多的是定义在一系列紧密相关的类间，而接口大多数是关系疏松但都实现某一功能的类中.</p><p>2.接口基本上不具备继承的任何具体特点,它仅仅承诺了能够调用的方法;    </p><p>3.一个类一次可以实现若干个接口,但是只能扩展一个父类    </p><p>4.接口可以用于支持回调,而继承并不具备这个特点.    </p><p>5.抽象类不能被密封。  </p><p>6.抽象类实现了oop中的一个原则，把可变的与不可变的分离。抽象类和接口就是定义为不可变的，而把可变的座位子类去实现。</p><p>7.好的接口定义应该是具有专一功能性的，而不是多功能的，否则造成接口污染。如果一个类只是实现了这个接口的中一个功能，而不得不去实现接口中的其他方法，就叫接口污染。</p><h4 id="语法上的区别"><a href="#语法上的区别" class="headerlink" title="语法上的区别"></a>语法上的区别</h4><p>a)抽象类可以有构造方法，接口中不能有构造方法。</p><p>b)抽象类中可以有普通成员变量，接口中没有普通成员变量</p><p>c)抽象类中可以包含非抽象的普通方法，接口中的所有方法必须都是抽象的，不能有非抽象的普通方法。</p><p>d)抽象类中的抽象方法的访问类型可以是public，protected和（默认类型,虽然eclipse不报错，但也不行,默认类型子类不能继承），但接口中的抽象方法只能是public类型的，并且默认即为public abstract类型.</p><p>e)抽象类中可以包含静态方法，接口中JDK1.8之前不可以有不能包含静态方法,JDK1.8之后可以包含.</p><p>f)抽象类和接口中都可以包含静态成员变量，抽象类中的静态成员变量的访问类型可以任意，但接口中定义的变量只能是public static final类型，并且默认即为public static final类型。</p><p>g)一个类可以实现多个接口,用逗号隔开，但只能继承一个抽象类,接口不可以实现接口,但可以继承接口并且可以继承多个接口,用逗号隔开.</p><h2 id="抽象类和接口的使用"><a href="#抽象类和接口的使用" class="headerlink" title="抽象类和接口的使用"></a>抽象类和接口的使用</h2><p>1.如果预计要创建组件的多个版本，则创建抽象类。抽象类提供简单的方法来控制组件版本。</p><p>2.如果创建的功能将在大范围的全异对象间使用，则使用接口。如果要设计小而简练的功能块，则使用接口。</p><p>3.如果要设计大的功能单元，则使用抽象类.如果要在组件的所有实现间提供通用的已实现功能，则使用抽象类。  </p><p>4.抽象类主要用于关系密切的对象；而接口适合为不相关的类提供通用功能。</p><p>几个形象案例比喻：</p><p>1.飞机会飞，鸟会飞，他们都继承了同一个接口“飞”；但是F22属于飞机抽象类，鸽子属于鸟抽象类。</p><p>2.就像铁门木门都是门（抽象类），你想要个门我给不了（不能实例化），但我可以给你个具体的铁门或木门（多态）；而且只能是门，你不能说它是窗（单继承）；一个门可以有锁（接口）也可以有门铃（多实现）。门（抽象类）定义了你是什么，接口（锁）规定了你能做什么（一个接口最好只能做一件事，你不能要求锁也能发出声音吧（接口污染）。</p><h4 id="接下来先说说抽象类和接口的详细区别。"><a href="#接下来先说说抽象类和接口的详细区别。" class="headerlink" title="接下来先说说抽象类和接口的详细区别。"></a>接下来先说说抽象类和接口的详细区别。</h4><h5 id="区别一"><a href="#区别一" class="headerlink" title="区别一"></a>区别一</h5><p>&emsp;&emsp;两者表达的概念不一样。抽象类是一类事物的高度聚合，那么对于继承抽象类的子类来说，对于抽象类来说，属于“是”的关系；而接口是定义行为规范，因此对于实现接口的子类来说，相对于接口来说，是“行为需要按照接口来完成”。这些听起来有些虚，举个例子。例如，狗是对于所有狗类动物的统称，京哈是狗，牧羊犬是狗，那么狗的一般特性，都会在京哈，牧羊犬中找到，那么狗相对于京哈和牧羊犬来说，就属于这类事物的抽象类型；而对于“叫”这个动作来说，狗可以叫，鸟也可以叫。很明显，前者相当于所说的是抽象类，而后者指的就是接口。</p><h5 id="区别二"><a href="#区别二" class="headerlink" title="区别二"></a>区别二</h5><p>&emsp;&emsp;抽象类在定义类型方法的时候，可以给出方法的实现部分，也可以不给出；而对于接口来说，其中所定义的方法都不能给出实现部分。<br>例如：</p><pre><code>public abstract class AbsTest{    public virtual void Test()    {        Debug.WriteLine( &quot;Test&quot; );    }    public abstract void NewTest();}public interface ITest{    void Test();    void NewTest();}</code></pre><h5 id="区别三"><a href="#区别三" class="headerlink" title="区别三"></a>区别三</h5><p>&emsp;&emsp;继承类对于两者所涉及方法的实现是不同的。继承类对于抽象类所定义的抽象方法，可以不用重写，也就是说，可以延用抽象类的方法；而对于接口类所定义的方法或者属性来说，在继承类中必须要给出相应的方法和属性实现。</p><h5 id="区别四"><a href="#区别四" class="headerlink" title="区别四"></a>区别四</h5><p>&emsp;&emsp;在抽象类中，新增一个方法的话，继承类中可以不用作任何处理；而对于接口来说，则需要修改继承类，提供新定义的方法。</p><h4 id="知道了两者的区别，再来说说，接口相对于抽象类的优势。"><a href="#知道了两者的区别，再来说说，接口相对于抽象类的优势。" class="headerlink" title="知道了两者的区别，再来说说，接口相对于抽象类的优势。"></a>知道了两者的区别，再来说说，接口相对于抽象类的优势。</h4><h5 id="好处一"><a href="#好处一" class="headerlink" title="好处一"></a>好处一</h5><p>&emsp;&emsp;接口不光可以作用于引用类型，也可以作用于值类型。而抽象类来说，只能作用于引用类型。</p><h5 id="好处二"><a href="#好处二" class="headerlink" title="好处二"></a>好处二</h5><p>&emsp;&emsp;由于接口只是定义属性和方法，而与真正实现的类型没有太大的关系，因此接口可以被多个类型重用。相对于此，抽象类与继承类的关系更紧密些。</p><h5 id="好处三"><a href="#好处三" class="headerlink" title="好处三"></a>好处三</h5><p>&emsp;&emsp;通过接口，可以减少类型暴露的属性和方法，从而便于保护类型对象。当一个实现接口的类型，可能包含其他方法或者属性，但是方法返回的时候，可以返回接口对象，这样调用端，只能通过接口提供的方法或者属性，访问对象的相关元素，这样可以有效保护对象的其他元素。</p><h5 id="好处四"><a href="#好处四" class="headerlink" title="好处四"></a>好处四</h5><p>&emsp;&emsp;减少值类型的拆箱操作。对于Struct定义的值类型数据，当存放集合当中，每当取出来，都需要进行拆箱操作，这时采用Struct+Interface结合的方法，从而降低拆箱操作。</p><h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>相对于抽象类来说，接口有这么多好处，但是接口有一个致命的弱点，就是接口所定义的方法和属性只能相对于继承它的类型（除非在继承类中修改借口定义的函数标示），那么对于多层继承关系的时候，光用接口就很难实现。因为如果让每个类型都去继承接口而进行实现的话，首先不说编写代码比较繁琐，有时候执行的结果还是错误，尤其当子类型对象隐式转换成基类对象进行访问的时候。<br>&emsp;&emsp;其实在继承中，到底使用接口还是抽象类。接口是固定的，约定俗成的，因此在继承类中必须提供接口相应的方法和属性的实现。而对于抽象类来说，抽象类的定义方法的实现，贯穿整个继承树，因此其中方法的实现或者重写都是不确定的。因此相对而言，抽象类比接口更灵活一些。</p>]]></content>
     
     
     <categories>
       
-      <category>自我反思</category>
+      <category>JAVA</category>
       
     </categories>
     
@@ -623,8 +758,8 @@
   
   <entry>
     <title>类加载</title>
-    <link href="/2019/05/01/%E7%B1%BB%E5%8A%A0%E8%BD%BD/"/>
-    <url>/2019/05/01/%E7%B1%BB%E5%8A%A0%E8%BD%BD/</url>
+    <link href="/2019/05/01/%E5%9F%BA%E7%A1%80-%E7%B1%BB%E5%8A%A0%E8%BD%BD/"/>
+    <url>/2019/05/01/%E5%9F%BA%E7%A1%80-%E7%B1%BB%E5%8A%A0%E8%BD%BD/</url>
     
     <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
     
@@ -676,25 +811,25 @@
   
   
   <entry>
-    <title>面试题之静态变量成员变量</title>
-    <link href="/2018/12/14/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/"/>
-    <url>/2018/12/14/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/</url>
+    <title>Java中Static关键字详解以及静态变量和成员变量的区别</title>
+    <link href="/2018/12/14/%E5%9F%BA%E7%A1%80-%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/"/>
+    <url>/2018/12/14/%E5%9F%BA%E7%A1%80-%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F/</url>
     
-    <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="static关键字的特点"><a href="#static关键字的特点" class="headerlink" title="static关键字的特点"></a>static关键字的特点</h2><p>（1）修饰成员变量、成员方法<br>（2）随着类的加载而加载<br>（3）优先于对象存在<br>（4）被所有对象共享<br>（5）可以通过类名调用<a id="more"></a><br>它本身也可以通过对象名调用<br>例如：main()方法由java虚拟机调用，不需要创建对象，他是一个静态方法</p><p><img src="/img/Static/static1.png" srcset="/img/loading.gif" alt="Alt mybatis应用架构图"></p><h2 id="什么时候使用静态？"><a href="#什么时候使用静态？" class="headerlink" title="什么时候使用静态？"></a>什么时候使用静态？</h2><p>如果某个成员变量是被所有对象共享的，那么它应该被定义为静态的。</p><h2 id="类成员和对象成员"><a href="#类成员和对象成员" class="headerlink" title="类成员和对象成员"></a>类成员和对象成员</h2><p>静态修饰的内容一般我们称其为：与类相关的，类成员<br>非静态修饰的内容一般我们称其为：与对象相关的，对象成员</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>（1）静态方法没有this关键字<br>（2）静态方法只能访问静态成员变量和静态成员方法</p><h2 id="静态变量和成员变量的区别"><a href="#静态变量和成员变量的区别" class="headerlink" title="静态变量和成员变量的区别"></a>静态变量和成员变量的区别</h2><p>（1）所属不同：静态变量属于类，成为类变量；<br>成员变量属于对象，称为对象变量<br>（2）内存中位置不同：静态变量位于方法区中的静态区<br>成员变量存储于堆内存<br>（3）内存出现时间不同：静态变量随着类的加载而加载，随着类的小说而消失<br>成员变量随着对象的创建而存在<br>（4）调用不同：静态变量可以通过类名调用，也可以通过对象名调用<br>成员变量只能通过对象名调用</p>]]></content>
     
     
     <categories>
       
-      <category>自我反思</category>
+      <category>JAVA</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>面试题</tag>
+      <tag>Static</tag>
       
-      <tag>JAVA</tag>
+      <tag>变量</tag>
       
     </tags>
     
@@ -758,8 +893,8 @@
   
   <entry>
     <title>冒泡排序</title>
-    <link href="/2018/06/04/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
-    <url>/2018/06/04/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</url>
+    <link href="/2018/06/04/%E5%9F%BA%E7%A1%80-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
+    <url>/2018/06/04/%E5%9F%BA%E7%A1%80-%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/</url>
     
     <content type="html"><![CDATA[<p>暂未上传</p>]]></content>
     

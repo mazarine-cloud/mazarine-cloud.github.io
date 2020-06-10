@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  <title>PL/SQL - 阳光在心里</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+<link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_fmb4a04yx8h.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+
+
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>时光蘑菇</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <i class="iconfont icon-home-fill"></i>
+              Home</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/archives/">
+              <i class="iconfont icon-archive-fill"></i>
+              Archives</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/categories/">
+              <i class="iconfont icon-category-fill"></i>
+              Categories</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/tags/">
+              <i class="iconfont icon-tags-fill"></i>
+              Tags</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              <i class="iconfont icon-user-fill"></i>
+              About</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">
+              <i class="iconfont icon-link-fill"></i>
+              Links</a>
+          </li>
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+                <div class="mt-3 post-meta">
+                  <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+                  <time datetime="2020-05-14 03:31">
+                    May 14, 2020 am
+                  </time>
+                </div>
+              
+
+              <div class="mt-1">
+                
+                  
+                  <span class="post-meta mr-2">
+                    <i class="iconfont icon-chart"></i>
+                    1.4k 字
+                  </span>
+                
+
+                
+                  
+                  <span class="post-meta mr-2">
+                      <i class="iconfont icon-clock-fill"></i>
+                    
+                    
+                    12
+                     分钟
+                  </span>
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  <span id="busuanzi_container_page_pv" class="post-meta" style="display: none">
+                    <i class="iconfont icon-eye" aria-hidden="true"></i>
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>
+                
+              </div>
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <article class="markdown-body">
+              <h2 id="PL-SQL学习"><a href="#PL-SQL学习" class="headerlink" title="PL/SQL学习"></a>PL/SQL学习</h2><p> PL/SQL是是由甲骨文公司在90年代初开发，以提高SQL的功能。PL/SQL是嵌入在Oracle数据库中的编程语言之一。PL/SQL是Oracle数据库对SQL语句的扩展。在普通SQL语句的使用上增加了编程语言的特点，所以PL/SQL就是把数据操作和查询语句组织在PL/SQL代码的过程性单元中，通过逻辑判断、循环等操作实现复杂的功能或者计算的程序语言。</p>
+<a id="more"></a>
+
+<h3 id="PL-SQL-介绍"><a href="#PL-SQL-介绍" class="headerlink" title="PL/SQL 介绍"></a>PL/SQL 介绍</h3><p>&emsp; &emsp; PL/SQL是是由甲骨文公司在90年代初开发，以提高SQL的功能。PL/SQL是嵌入在Oracle数据库中的编程语言之一。PL/SQL是Oracle数据库对SQL语句的扩展。在普通SQL语句的使用上增加了编程语言的特点，所以PL/SQL就是把数据操作和查询语句组织在PL/SQL代码的过程性单元中，通过逻辑判断、循环等操作实现复杂的功能或者计算的程序语言。</p>
+<h3 id="PL-SQL-——Hello-World"><a href="#PL-SQL-——Hello-World" class="headerlink" title="PL/SQL ——Hello World"></a>PL/SQL ——Hello World</h3><pre><code>例：写一个简单的Hello World
+declare        //变量只能在这里声明
+    msg varchar(20);    //声明变量
+begin        //处理逻辑
+    msg := &apos;Hello world ! &apos;;    //赋值操作
+
+    dbms_output.put_line(msg);    //输出
+
+exception
+    -- 单行注释
+    /*
+     * 多行注释 ，这部分是异常处理模块，可有可无。
+     */
+end;</code></pre><h2 id="pl-sql编程语言"><a href="#pl-sql编程语言" class="headerlink" title="pl/sql编程语言"></a>pl/sql编程语言<br></h2><ul>
+<li><p>p1/sq1编程语言是列sql语言的扩展,使待sql语言具有过程化编程的特性。<br></p>
+</li>
+<li><p>p1/sql编程语,比一般的过程化编程语言,更加灵活高效。<br></p>
+</li>
+<li><p>pl/sql编程语言主要用米编写存储过程和存储函数等。<br></p>
+</li>
+<li><p>时方法<br></p>
+</li>
+<li><p>赋值操作可以使用:也可以使用into查询语句默值<br></p>
+<pre><code>declare
+    i number(2) := 10;
+    s varchar2(10) :=&apos;小明&apos;;
+    ena emp.ename%type;---引用型变量
+    emprow emp%rowtype;--记录型变量
+begin    
+        dbms_output.put_line(i);
+        dbms_output.put_line (s);
+    select ename into ena from emp where empno =7788;
+        dbms_output.put_line (ena);
+    select * into emprow from emp where empno = 7788;
+        dbms_output.put_line (emprow.ename || &apos;的工作为:&apos; || emprow.job)
+end;    </code></pre></li>
+</ul>
+<h3 id="pl-sq1判断"><a href="#pl-sq1判断" class="headerlink" title="pl/sq1判断"></a>pl/sq1判断<br></h3><ul>
+<li><p>输入小于18的数字,输出未成年<br></p>
+</li>
+<li><p>输入大于18小于40的数字,输出中年人<br></p>
+</li>
+<li><p>输入大于40的数字,输出老年<br></p>
+<pre><code>declare
+    i number(3) :=&amp;ii;
+begin    
+    if i&lt;18 then
+            dbms_output.pu_line(&apos;未成年&apos;); 
+    elseif i&lt;40 then
+            dbms_output.pu_line(&apos;中成年&apos;);
+    else i&lt;40
+            dbms_output.pu_line(&apos;老成年&apos;);
+    end if;
+
+end;</code></pre><h3 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h3></li>
+<li><p>–pl/sq1循环<br></p>
+</li>
+<li><p>–p1/sq1中的loop循环<br></p>
+</li>
+<li><p>–用三种方式输出1玛10是个数字<br></p>
+</li>
+<li><p>–while循环<br></p>
+<pre><code>declare
+    i     number(2) :=1;
+begin
+    while i&lt;11 loop
+         dbms_output.putline (i);
+    i:=i+1;
+    end loop;
+end;</code></pre></li>
+<li><p>–exit循环<br></p>
+<p>   declare</p>
+<pre><code>i     number(2) :=1;</code></pre><p>   begin</p>
+<pre><code>loop
+ exit while i&lt;11； 
+     dbms_output.putline (i);
+i:=i+1;
+end loop;</code></pre><p>   end;</p>
+</li>
+<li><p>–for循环<br><br>   declare</p>
+<p>   begin</p>
+<pre><code>for i in 1..10 loop
+    dbms_output.put_line(in);
+end loop;</code></pre><p>   end;</p>
+</li>
+</ul>
+<h3 id="游标"><a href="#游标" class="headerlink" title="游标"></a>游标</h3><ul>
+<li>可以存放个对象，多行记录</li>
+</ul>
+<p>输出emp表中所有员工的姓名</p>
+<pre><code>declare    
+        cursor c1 is select*from emp ;    
+        emprow emp%rowtype
+begin
+    open c1
+    loop 
+         fetch c1 into emprow;
+         exit when c1%notfound;
+                dnms_output.put_line(emprow.name)
+    end loop;
+ close c1;
+end;</code></pre><p>给指定部门员工涨工资</p>
+<pre><code>declare
+    cursor c2(eno emp.deptno%type) is select*from emp where deptno = eno;
+    en emp.empno%type
+begin
+    open c2(10)
+        loop
+            fetch c2 into en;
+            exit when c2%notfound;
+            update emp set sal =sal +100 wnere empno=en; 
+        end loop;
+    close c2;
+end;</code></pre><h3 id="存储过程"><a href="#存储过程" class="headerlink" title="存储过程"></a>存储过程</h3><ul>
+<li><p>存储过程就是提前已经编译好的一段pl/sql，放置在数据库端</p>
+</li>
+<li><p>可以直接被调用。这一段pl/sql一般都是固定步骤的业务。</p>
+<h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><pre><code> create proc [ edure ] procedure_name [ ; number ]
+      [ { @parameter data_type }
+     [ varying ] [ = default ] [ output ]
+         ] [ ,...n ]
+
+      [ with
+{ recompile | encryption | recompile , encryption } ]
+
+      [ for replication ]
+
+      as sql_statement [ ...n ]</code></pre></li>
+</ul>
+<p style="background:yellow">参数    procedure_name
+
+
+<p style="color:red">案例</p></p>
+--给指定员工涨工资100
+
+<pre><code>pl语句
+    create or replace procedure p1(eno emp.empno%type)
+    is  
+    begin
+        update emp set sal=sal+100 where empno=no;
+    commit;
+    end;
+
+ 测试pl:
+    declare
+    begin
+    p1(7788);
+    end;</code></pre><p style="background:yellow">
+create 如果创建已经存在，会报一个错误 -‘对象已存在’
+create or replace 则不会报错，如果创建已存在，它会先删除原来的，然后创建你要创建的。</p>
+
+<h3 id="存储函数"><a href="#存储函数" class="headerlink" title="存储函数"></a>存储函数</h3><h4 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h4><p>定义：函数唯一命名的存储程序，可带参数，并返回一计算值<br>函数和过程的结构类似，但必须有一个Return字句，用于返回函数值。</p>
+<p>语法：</p>
+<pre><code>create [or replace] function 函数名(参数列表)
+return 函数值类型
+as
+plsql子程序体;</code></pre><p style="color:red">案例</p></p>
+--通过存储函数实现计算指定员工的年薪
+
+
+<pre><code>pl语句    
+create or  replace fanction f_yearsal(eno emp.empno%type) return number
+is
+    s number(10);
+begin
+    select sal*12+nvl(comm,0) from emp where empno=eno; 
+    return s;
+end;
+测试f_yearsal:
+--存储函数调用的时候返回函数需要接收。
+declare
+    s number(10);
+begin
+    f_yearsal(7788);
+end;</code></pre><h3 id="out类型参数使用"><a href="#out类型参数使用" class="headerlink" title="out类型参数使用"></a>out类型参数使用</h3><pre><code>使用存储过程计算年薪
+create or replace procedure p_yearsal(eno emp.empno%type,yearsal out number)
+is
+    s number(10);
+    c emp.comm%type;
+begin
+    select sal*12,nvl(comm) into s,c from emp where empno=eno;
+    yearsal :=s+c;
+end; 
+测试p_yearsal
+declare
+yearsal number(10);
+begin
+p_yearsal(7788,yearsal);
+end;</code></pre><p style="background:yellow">
+in和out类型参数的区别是什么？
+    凡是涉及到into查询语句赋值或:=赋值操作的参数，必须使用out来修饰。</p>
+
+<h5 id="存储过程核存储函数的区别"><a href="#存储过程核存储函数的区别" class="headerlink" title="存储过程核存储函数的区别"></a>存储过程核存储函数的区别</h5><p>相同点：1.创建语法结构相似，都可以携带多个传入参数和传出参数。</p>
+<p>　　　　      2.都是一次编译，多次执行。</p>
+<p>　　不同点：1.存储过程定义关键字用procedure，函数定义用function。</p>
+<p>　　　　　　2.存储过程中不能用return返回值，但函数中可以，而且函数中必须有return子句。</p>
+<p>　　　　　　3.执行方式略有不同，存储过程的执行方式有两种（1.使用execute2.使用begin和end），函数除了存储过程的两种方式外，还可以当做表达式使用，例如放在select中（select f1() form dual;）。</p>
+<p>总结：如果只有一个返回值，用存储函数，否则，一般用存储过程。</p>
+<p><a><a href="https://www.bilibili.com/video/BV1aE411K7u8?p=27" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1aE411K7u8?p=27</a></a></p>
+
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/PL-SQL/">PL/SQL</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用CC BY-SA 3.0协议，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/05/15/Oracle_%E5%8D%95%E8%A1%8C%E5%87%BD%E6%95%B0_%E8%81%9A%E5%90%88%E5%87%BD%E6%95%B0_%E5%88%86%E9%A1%B5/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Orcle数据库</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/2020/04/11/TCP-UDP%EF%BC%88%E5%AE%8C%EF%BC%89/">
+                        <span class="hidden-mobile">TCP/UDP协议(摘)</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/mazarine-cloud/mazarine-cloud.github.io" target="_blank" rel="nofollow noopener">
+        <span>时光蘑菇</span></a>
+    </div>
+    
+  <div>
+    
+      <!-- 不蒜子统计PV -->
+      
+      <span id="busuanzi_container_site_pv" style="display: none">
+      总访问量 418<span id="busuanzi_value_site_pv"></span> 次
+    </span>
+    
+    
+      <!-- 不蒜子统计UV -->
+      
+      <span id="busuanzi_container_site_uv" style="display: none">
+      总访客数 45<span id="busuanzi_value_site_uv"></span> 人
+    </span>
+    
+  </div>
+
+
+    
+  <!-- 备案信息 -->
+  <div>
+    <a href="http://beian.miit.gov.cn/" target="_blank" class="beian-icp"
+       rel="nofollow noopener">京ICP证23743号</a>
+    
+      <a
+        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=679254"
+        rel="nofollow noopener"
+        class="beian-police"
+        target="_blank"
+      >
+        <span class="beian-police-sep">&nbsp;|&nbsp;</span>
+        
+          <img src="/img/police_beian.png" srcset="/img/loading.gif" alt="police-icon" />
+        
+        <span>京公网安备12345678号</span>
+      </a>
+     
+  </div>
+
+
+    
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/main.js" ></script>
+
+
+  <script  src="/js/lazyload.js" ></script>
+
+
+
+  
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '.post-content',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 3,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+<!-- Plugins -->
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "PL/SQL&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 200,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+      icon: "§"
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+  
+  
+    <script>
+      !function (e, t, a) {
+        function r() {
+          for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+          requestAnimationFrame(r)
+        }
+
+        function n() {
+          var t = "function" == typeof e.onclick && e.onclick;
+          e.onclick = function (e) {
+            t && t(), o(e)
+          }
+        }
+
+        function o(e) {
+          var a = t.createElement("div");
+          a.className = "heart", s.push({
+            el: a,
+            x: e.clientX - 5,
+            y: e.clientY - 5,
+            scale: 1,
+            alpha: 1,
+            color: c()
+          }), t.body.appendChild(a)
+        }
+
+        function i(e) {
+          var a = t.createElement("style");
+          a.type = "text/css";
+          try {
+            a.appendChild(t.createTextNode(e))
+          } catch (t) {
+            a.styleSheet.cssText = e
+          }
+          t.getElementsByTagName("head")[0].appendChild(a)
+        }
+
+        function c() {
+          return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+        }
+
+        var s = [];
+        e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {
+          setTimeout(e, 1e3 / 60)
+        }, i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), n(), r()
+      }(window, document);
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
